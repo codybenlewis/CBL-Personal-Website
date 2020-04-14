@@ -1,0 +1,83 @@
+.spoiler {
+  background-color: $dark-gray-solid; // .9 opacity
+  color: $dark-gray-solid;
+  border-radius: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  // Remove Selection
+  -webkit-touch-callout: none; /* iOS Safari */
+   -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Old versions of Firefox */
+       -ms-user-select: none; /* Internet Explorer/Edge */
+           user-select: none; /* Non-prefixed version, currently
+                                 supported by Chrome, Opera and Firefox */
+}
+
+
+.spoiled {
+  background-color: $light-gray-solid;
+  color: $dark-gray;
+  border-radius: 3px;
+  transition: background-color 0.5s ease-out, color 0.5s ease-out;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 105%;
+  //left: 50
+  width: max-content;
+  margin-bottom: 5px;
+  padding: 5px 10px 7px 10px;
+  border-radius: 5px;
+  background-color: #000;
+  background-color: $dark-gray-solid;
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: $font-size-small;
+  line-height: $font-size-small * 1.5;
+  @include sans-serif;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 105%;
+  // left: 50%;
+  left: 15px;
+  // margin-left: 10px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid $dark-gray-solid;;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}

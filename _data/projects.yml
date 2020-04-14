@@ -1,0 +1,29 @@
+- name: "America Duck"
+  color: "#f61a13"
+  description: I made fun of a Jacket Brand, <span class="spoiler" data-tooltip="Reveal spoiler"> got a cease and desist and a free trip to Canada</span>
+  thumb: "/assets/images/america-duck.png"
+
+- name: "Shades of Hate"
+  color: "#ffc33e"
+  description: Why I have a Donald Trump poster in my bedroom
+  thumb: "/assets/images/shades-of-hate.png"
+
+- name: Personal Data Server
+  color: "#00a988"
+  description: It’s under my desk, and on this website
+  thumb: "/assets/images/personal-data-server.png"
+
+- name: string&&loop
+  color: "#0171cf"
+  description: Maybe you want to buy some socks?
+  thumb: "/assets/images/fpo.png"
+
+- name: Today Clock
+  color: "#615b94"
+  description: Writing a cold email, making a friend, and working together on a clock that redefines your perception of time
+  thumb: "/assets/images/today.png"
+
+- name: Scene Week
+  color: "#ff66e2"
+  description: An ongoing yearly event with my friends. Every once and while I’ll show up to work in eyeliner. It’s okay.
+  thumb: "/assets/images/fpo.png"

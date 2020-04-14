@@ -1,0 +1,8 @@
+<header>
+<nav>
+  <h1><a href="/">Cody Ben Lewis Makes Things</a></h1>
+  {% for item in site.data.header %}
+    <a href="{{ item.link }}">{{ item.name }}</a>
+  {% endfor %}
+</nav>
+</header>

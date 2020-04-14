@@ -1,0 +1,9 @@
+- name: Projects
+  link: /projects.md
+- name: Notes
+  link: /notes.md
+- name: About
+  link: /about.md
+- name: E-Mail
+  link: "mailto:cblewisnj@gmail.com?subject=I clicked the e-mail link on your website
+"
