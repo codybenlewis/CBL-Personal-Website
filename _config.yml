@@ -12,5 +12,5 @@ defaults:
     values:
       image: true
 
-url: codybenlewis.github.io
+url: http://codybenlewis.github.io
 baseurl: /CBL-Personal-Website
