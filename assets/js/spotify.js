@@ -7,6 +7,6 @@
 //    });
 //
 
-$.getJSON('http://192.168.0.170/spotify/current', function(data){
+$.getJSON('http://api.codybenlewis.com/spotify/current', function(data){
 console.log(data)
 });
