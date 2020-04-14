@@ -15,7 +15,8 @@ title: Cody Ben Lewis
       <a href="{{ item.name }}.md"><img class="project-thumb" src="{{ item.thumb }}" alt="{{ item.name }}"></a>
     </div>
     <div>
-      <h3><a href="{{ item.name }}.md" style="color: {{ item.color }}">{{ item.name }}</a></h3> {{ item.description }}
+      <h3><a href="{{ item.name }}.md" style="color: {{ item.color }}">{{ item.name }}</a></h3>
+      {{ item.description | replace: ">!", "<span class='spoiler' data-tooltip='Reveal spoiler'>" | replace: '!<', '</span>' }}
     </div>
   </div>
   {% endfor %}
