@@ -8,9 +8,9 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "assets/images"
+      path: "assets/img"
     values:
       image: true
 
-url: http://codybenlewis.github.io
-baseurl: /CBL-Personal-Website
+url: codybenlewis.github.io
+baseurl: /
