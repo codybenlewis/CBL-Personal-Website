@@ -8,7 +8,7 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "assets/img"
+      path: "assets/images"
     values:
       image: true
 
