@@ -7,6 +7,6 @@
 //    });
 //
 
-$.getJSON('http://api.codybenlewis.com/spotify/current', function(data){
+$.getJSON('https://codybenlewis.duckdns.org/spotify/current', function(data){
 console.log(data)
 });
