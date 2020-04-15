@@ -1,0 +1,39 @@
+#spotify {
+  @include center;
+  text-align: center;
+  transition: 5s;
+}
+
+.spotify-container {
+@include sans-serif;
+font-size: $font-size-small;
+line-height: $font-size-small * 1.4;
+color: $medium-gray;
+position: fixed;
+padding: 15px 20px 15px 20px;
+top: 0;
+left: 0;
+right: 0;
+border-bottom: 1px solid $light-gray-solid;
+background-color: white;
+z-index: 100;
+}
+
+
+#live {
+  padding-right: 6px;
+  height: 20px;
+  position: relative;
+  bottom: 2px;
+  animation: Pulsate 5s linear infinite;
+  vertical-align:middle;
+}
+
+
+@keyframes Pulsate {
+  from { opacity: 1; }
+  40% { opacity: 1; }
+  50% { opacity: .25; }
+  60% { opacity: 1; }
+  to { opacity: 1; }
+}
