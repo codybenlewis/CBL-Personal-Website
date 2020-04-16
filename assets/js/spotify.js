@@ -13,6 +13,7 @@ $(window).resize(function () {
 //keep track of the last song played globally
 var trackStored;
 
+
 function getSpotify() {
 
   $.getJSON('https://api.codybenlewis.com/spotify/current', function(data) {
@@ -38,13 +39,19 @@ function getSpotify() {
       var sentence = "<div id='live-container'> \
                         <img id='live' src='/assets/images/live.png'> \
                       </div> \
-                      <div id='marquee'> \
+                      <div id='marquee-container'> \
+                        <div id='marquee'> \
                           <span> \
                             I'm currently listening to \
                             <a href='" + data.track_link + "'> " + data.track + "</a> by \
                             <a href = '" + data.artist_link + "'> " + data.artist + "'</a> \
                             on Spotify. \
                           <span> \
+                        </div> \
+                        <div id='left-fade'> \
+                        </div> \
+                        <div id='right-fade'> \
+                        </div> \
                       </div>";
 
       $("#spotify").html(sentence);
@@ -69,14 +76,21 @@ function getSpotify() {
         //update track
         trackStored = data.track;
 
-        var sentence = "<div id='marquee'> \
-                      <span> \
-                        I was just listening to  \
-                        <a href='" + data.track_link + "'>" + data.track + "</a> by \
-                        <a href = '" + data.artist_link + "'> " + data.artist + "</a> \
-                        on Spotify. \
-                      </span> \
-                    </div>";
+        var sentence = "<div id='marquee-container'> \
+                          <div id='marquee'> \
+                            <span> \
+                              I was just listening to  \
+                              <a href='" + data.track_link + "'>" + data.track + "</a> by \
+                              <a href = '" + data.artist_link + "'> " + data.artist + "</a> \
+                              on Spotify. \
+                            </span> \
+                          </div> \
+                          <div id='left-fade'> \
+                          </div> \
+                          <div id='right-fade'> \
+                          </div> \
+                          </div> \
+                        </div>";
 
         $("#spotify").html(sentence);
 
@@ -99,6 +113,14 @@ function makeMarquee() {
     delayBetweenCycles: delay,
     handleHover: false,
   });
+
+  if ($('#marquee').hasClass('has-enough-space')) {
+    $("#right-fade").css('opacity', '0');
+    $("#left-fade").css('opacity', '0');
+  } else {
+    $("#right-fade").css('opacity', '1');
+    $("#left-fade").css('opacity', '1');
+  }
 }
 
 //update the support span with a message for help. If data loads successfully this
