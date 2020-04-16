@@ -175,9 +175,7 @@
                 'overflow': 'hidden',
             });
 
-            //Edited to remove ceil for words that were just barely cut off
-            // this._needsAnimation = this._element[0].scrollWidth > Math.ceil(this._element.outerWidth());
-            this._needsAnimation = this._element[0].scrollWidth > this._element.outerWidth();
+            this._needsAnimation = this._element[0].scrollWidth > Math.ceil(this._element.outerWidth());
         } else {
             this._element.css({
                 'word-wrap': 'break-word',      // Deprecated in favor of overflow wrap

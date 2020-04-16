@@ -1,86 +1,96 @@
 // Start and then manually refresh content to keep things fresh
-$(document).ready(getSpotify);
+$(document).ready(function() {
+getSpotify();
+support();
+});
+
 window.setInterval(getSpotify, 10000);
+
+$(window).resize(function () {
+  makeMarquee();
+});
 
 //keep track of the last song played globally
 var trackStored;
 
 function getSpotify() {
 
-  $('#marquee').bind('beforeStarting', function() {
-    //code you want to execute before starting the animations
-    console.log('test');
-  });
-
   $.getJSON('https://api.codybenlewis.com/spotify/current', function(data) {
 
+    //check if theres's data
     if (data.current != null) {
+
+      //isolate just the song data to cut down some language and log something readable
+      data = data.current
 
       //view return data
       console.log(data);
 
       // don't do anything else if the song hasn't changed
-      if (trackStored == data.current.track) {
-        console.log(trackStored, track)
+      if (trackStored == data.track) {
         return;
       }
 
-      //update track
-      trackStored = data.current.track;
+      //update track stored for comparison
+      trackStored = data.track;
 
       //build and then inject HTML content.
-      //This is more complex than the one below due to the flashing live image
-      var live = "<div id='live-container'><img id='live' src='/assets/images/live.png'></div>";
-      var intro = "<div id='marquee-container'><div id='marquee'>I'm currently listening to ";
-      var track = "<a href='" + data.current.track_link + "'>" + data.current.track + "</a> ";
-      var artist = "by <a href='" + data.current.artist_link + "'>" + data.current.artist;
-      var outro = "</a> on Spotify.</div><div id='overlay'></div></div>";
-      $("#spotify").html(live + intro + track + artist + outro);
+      var sentence = "<div id='live-container'> \
+                        <img id='live' src='/assets/images/live.png'> \
+                      </div> \
+                      <div id='marquee'> \
+                          <span> \
+                            I'm currently listening to \
+                            <a href='" + data.track_link + "'> " + data.track + "</a> by \
+                            <a href = '" + data.artist_link + "'> " + data.artist + "'</a> \
+                            on Spotify. \
+                          <span> \
+                      </div>";
 
+      $("#spotify").html(sentence);
 
-      //decide whether or not the final sentence size requires a marquee and apply if necessary
-      //SimpleMarquee has it's own version of this but has bugs with dynamic content width changes
-      //edited line 179 in jquery.simplemarquee.js to help eliminate error cases
-      songWidth = $('#marquee').width() + $('#live-container').width();
-      if (songWidth >= $('#spotify').width() * .95) {
-        makeMarquee();
-      }
+      makeMarquee();
 
     } else {
+
       $.getJSON('https://api.codybenlewis.com/spotify/recent', function(data) {
 
-        //view return data
+        //isolate just thr first song
+        data = data.recent[0]
+
+        //isolate just the song data to cut down some language and log something readable
         console.log(data);
 
         // don't do anything else if the song hasn't changed
-        if (trackStored == data.recent[0].track) {
+        if (trackStored == data.track) {
           return;
         }
 
         //update track
-        trackStored = data.recent[0].track;
+        trackStored = data.track;
 
-        //build and then inject HTML content
-        var intro = "<div id='marquee-container'><div id='marquee'><div id='fade'></div> I was just listening to ";
-        var track = '<a href="' + data.recent[0].track_link + '">' + data.recent[0].track + "</a> ";
-        var artist = "by <a href='" + data.recent[0].artist_link + "'>" + data.recent[0].artist;
-        var outro = "</a> on Spotify, but nothing's playing now.</div><div id='overlay'></div></div>";
-        $("#spotify").html(fade + intro + track + artist + outro);
+        var sentence = "<div id='marquee'> \
+                      <span> \
+                        I was just listening to  \
+                        <a href='" + data.track_link + "'>" + data.track + "</a> by \
+                        <a href = '" + data.artist_link + "'> " + data.artist + "</a> \
+                        on Spotify. \
+                      </span> \
+                    </div>";
 
-        songWidth = $('#marquee').width();
-        if (songWidth >= $('#spotify').width() * .95) {
-          makeMarquee();
-        }
+        $("#spotify").html(sentence);
+
+        makeMarquee();
+
       });
     }
   });
 }
 
-
+// via https://github.com/IndigoUnited/jquery.simplemarquee
 function makeMarquee() {
 
   var delay = 3000
-
 
   $('#marquee').simplemarquee({
     speed: 50,
@@ -89,34 +99,12 @@ function makeMarquee() {
     delayBetweenCycles: delay,
     handleHover: false,
   });
+}
 
-
-
-  //runs when txt starts scrolling for the first time.
-  setTimeout(function() {
-    $("#overlay").addClass('leftRightFade');
-  }, delay);
-
-
-  // //runs when txt finishes scrolling
-  // $("#marquee").bind("cycle", function() {
-  //   $("#overlay").removeClass('leftRightFade');
-  // });
-
-  var animationDuration = $('.simplemarquee-wrapper').css("animation-duration");
-  animationDuration = parseFloat(animationDuration.substring(0, 5)) * 1000;
-  console.log(animationDuration);
-  //runs right before txt finishes scrolling
-  setTimeout(function() {
-    $("#overlay").removeClass('leftRightFade');
-    console.log('NOW');
-  }, animationDuration * 1.5);
-
-
-  //runs when txt starts scrolling again after a cycle
-  $("#marquee").bind("cycle", function() {
-    setTimeout(function() {
-      $("#overlay").addClass('leftRightFade');
-    }, delay);
-  });
+//update the support span with a message for help. If data loads successfully this
+//the support span is overwritten so this function won't matter ¯\_(ツ)_/¯
+function support() {
+  setTimeout(function(){
+    $("#support").html("If you see this message <a href='mailto:cblewisnj@gmail.com?subject=Something might be broken'>please tell me</a>");
+  }, 10000);
 }
