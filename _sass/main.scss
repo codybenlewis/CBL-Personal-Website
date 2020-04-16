@@ -1,12 +1,13 @@
 html {
-    font-size: 18px
+    font-size: 18px;
 }
 
 body {
   @include serif;
   line-height: $font-size-medium * 1.5;
   color: $dark-gray;
-  padding: 80px 20px 20px 20px;
+  padding: 0px 20px 20px 20px;
+  margin: 0px;
 }
 
 p {
@@ -42,7 +43,7 @@ h2 {
 h3 {
   font-size: $font-size-medium;
   font-weight: 400;
-  color: $medium-gray;
+  color: $light-gray;
 }
 
 header, footer {
