@@ -17,7 +17,6 @@
   color: $light-gray;
   padding-top: 15px;
   padding-bottom: 14px;
-  margin-bottom: $vSpacing / 2;
   background-color: white;
   border-bottom: 1px solid $light-gray-solid;
   overflow: hidden;
@@ -55,7 +54,8 @@
 }
 
 #live {
-  width: 36px;
+  height: 20px;
+  width: auto;
   animation: Pulsate 5s linear infinite;
 }
 

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% assign project = site.data.projects[page.key] %}
+<h1 class="project-title" style="color: {{ project.color }}">{{page.name}}</h1>
+
+<section>
+{{ content }}
+</section>
+
+<section>
+  <h2>More Projects</h2>
+  <div class="project-index">
+    {% include projects/project-index.html name="americaduck" current=page.key %}
+    {% include projects/project-index.html name="personaldataserver" current=page.key %}
+    {% include projects/project-index.html name="today" current=page.key %}
+    {% include projects/project-index.html name="stringandloop" current=page.key %}
+    {% include projects/project-index.html name="shadesofhate" current=page.key %}
+  </div>
+</section>

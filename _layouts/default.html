@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <!-- Style -->
         <link rel="stylesheet" href="/assets/css/styles.css">
 
@@ -29,9 +31,9 @@
         <script src="/assets/js/clock.js"></script>
   </head>
   <body>
-    {% include spotify.html %}
+    {% include specials/spotify.html %}
     {% include header.html %}
-    {{ content }}
+      {{ content }}
     {% include footer.html %}
   </body>
 </html>

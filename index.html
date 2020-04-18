@@ -9,17 +9,14 @@ title: Cody Ben Lewis
 </section>
 
 <section>
-  <h2>Selected Projects</h2> {% for item in site.data.projects limit:5 %}
-  <div class="project-item">
-    <div class="project-thumb-container">
-      <a href="{{ item.name }}.md"><img class="project-thumb" src="{{ item.thumb }}" alt="{{ item.name }}"></a>
-    </div>
-    <div>
-      <h3><a href="{{ item.name }}.md" style="color: {{ item.color }}">{{ item.name }}</a></h3>
-      {{ item.description | replace: ">!", "<span class='spoiler' data-tooltip='Reveal spoiler'>" | replace: '!<', '</span>' }}
-    </div>
-  </div>
-  {% endfor %}
+  <h2>Selected Projects</h2>
+
+  {% include projects/project-feature.html name="americaduck" %}
+  {% include projects/project-feature.html name="personaldataserver" %}
+  {% include projects/project-feature.html name="today" %}
+  {% include projects/project-feature.html name="stringandloop" %}
+  {% include projects/project-feature.html name="shadesofhate" %}
+
   <h3>View more on the <a href="/projects">Projects</a> page.</h3>
 </section>
 

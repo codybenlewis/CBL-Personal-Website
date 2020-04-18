@@ -1,5 +1,23 @@
 defaults:
+
   - scope:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "note"
+      permalink: :year/:title/
+
+
+collections:
+  projects:
+    output: true
+    permalink: :collection/:name/

@@ -1,10 +1,12 @@
-// Start and then manually refresh content to keep things fresh
+// Start spotify
+// If spotify breaks support will ask people to let me knom
 $(document).ready(function() {
 getSpotify();
 support();
 });
 
-window.setInterval(getSpotify, 10000);
+//Manually refresh content every 60 seconds to keep things fresh
+window.setInterval(getSpotify, 60000);
 
 $(window).resize(function () {
   makeMarquee();
@@ -44,7 +46,7 @@ function getSpotify() {
                           <span> \
                             I'm currently listening to \
                             <a href='" + data.track_link + "'> " + data.track + "</a> by \
-                            <a href = '" + data.artist_link + "'> " + data.artist + "'</a> \
+                            <a href = '" + data.artist_link + "'> " + data.artist + "</a> \
                             on Spotify. \
                           <span> \
                         </div> \
@@ -88,7 +90,6 @@ function getSpotify() {
                           <div id='left-fade'> \
                           </div> \
                           <div id='right-fade'> \
-                          </div> \
                           </div> \
                         </div>";
 

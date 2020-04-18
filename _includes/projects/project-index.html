@@ -1,0 +1,8 @@
+{% if include.current != include.name %}
+  {% assign item = site.data.projects[include.name] %}
+    <div class="project-index-item">
+      <a href="{{ site.url }}/projects/{{ item.url }}"><img class="project-index-thumb" src="{{ item.thumb }}" alt="{{ item.name }}">
+      </a>
+      <a href="{{ site.url }}/projects/{{ item.url }}" style="color: {{ item.color }}">{{ item.name }}{{include.end}}</a>
+    </div>
+{% endif %}

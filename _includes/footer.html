@@ -1,13 +1,10 @@
 <footer>
   <nav>
-    <h1>Let's Be Friends</h1>
-    {% for item in site.data.footer %}
-    <a href="{{ item.link }}">{{ item.name }}</a>
-    {% endfor %}
+    <h1>Let's Be Friends</h1> {% for item in site.data.footer %}
+    <a href="{{ item.link }}">{{ item.name }}</a> {% endfor %}
   </nav>
 
   <div class="copyright">
-    Coded by clean hands during the coronavirus quarantine <br>
-    © <span id="clock">Right now</span>, Cody Ben Lewis, LLC
+    Coded by clean hands during the coronavirus quarantine <br> © <span id="clock"></span> Cody Ben Lewis, LLC
   </div>
 </footer>

@@ -1,29 +1,48 @@
-- name: America Duck
+americaduck:
+  name: America Duck
   color: "#f61a13"
-  description: "I made fun of a Jacket brand. [Spoiler Alert] >!I ended up with a cease and desist and a free trip to Canada!<"
-  thumb: /assets/images/america-duck.png
+  description: I made fun of a Jacket brand, >!got a cease and desist and a free trip to Canada.!<
+  thumb: /assets/images/projects/thumbs/america-duck.png
+  url: america-duck
+  hashtags:
+    - test
 
-- name: Shades of Hate
+shadesofhate:
+  name: Shades of Hate
+  url: shades-of-hate
   color: "#ffc33e"
+  thumb: /assets/images/projects/thumbs/shades-of-hate.png
   description: Why I have a Donald Trump poster in my bedroom
-  thumb: /assets/images/shades-of-hate.png
+  hashtags:
+    - kickstarter
+    - test
 
-- name: Personal Data Server
+
+personaldataserver:
+  name: Personal Data Server
   color: "#00a988"
   description: It’s under my desk, and on this website
-  thumb: /assets/images/personal-data-server.png
+  thumb: /assets/images/projects/thumbs/personal-data-server.png
+  url: personal-data-server
+  hashtags:
 
-- name: string&&loop
+stringandloop:
+  name: string&&loop
   color: "#0171cf"
   description: Maybe you want to buy some socks?
-  thumb: /assets/images/fpo.png
+  thumb: /assets/images/projects/thumbs/fpo.png
+  url: stringandloop
 
-- name: Today Clock
+today:
+  name: Today
   color: "#615b94"
   description: Writing a cold email, making a friend, and working together on a clock that redefines your perception of time
-  thumb: /assets/images/today.png
+  thumb: /assets/images/projects/thumbs/today.png
+  url: today
 
-- name: Scene Week
+sceneweek:
+  name: Scene Week
   color: "#ff66e2"
   description: An ongoing yearly event with my friends. Every once and while I’ll show up to work in eyeliner. It’s okay.
-  thumb: /assets/images/fpo.png
+  thumb: /assets/images/projects/thumbs/fpo.png
+  url: scene-week
