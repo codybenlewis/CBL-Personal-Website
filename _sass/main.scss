@@ -1,9 +1,6 @@
-html {
-    font-size: 18px;
-}
-
 body {
   @include serif;
+  font-size: 18px;
   line-height: $font-size-medium * 1.5;
   color: $dark-gray;
   margin: 0px;

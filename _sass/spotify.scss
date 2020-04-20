@@ -2,8 +2,6 @@
   position: relative;
   display: flex;
   overflow: hidden;
-  font-size: $font-size-small;
-  line-height: $font-size-small * 1.4;
 }
 
 
@@ -23,14 +21,18 @@
   padding-left: $body-padding / 2;
   padding-right: $body-padding;
   background-color: white;
-
   overflow: hidden;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   z-index: 100;
+
+//prevent size adjustment on dynamic media
+  // https://stackoverflow.com/questions/13237782/safari-doesnt-calculate-rem-units-correct-when-scaling-with-media-width-heigh
+  -webkit-text-size-adjust: none;
 }
+
 
 #left-fade {
   position: absolute;
