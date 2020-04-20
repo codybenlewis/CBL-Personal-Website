@@ -2,32 +2,30 @@
 layout: default
 ---
 
-
-
-
 {% assign project = site.data.projects[page.key] %}
 <h1 class="project-page-title project-title" style="color: {{ project.color }}">{{project.name}}</h1>
 
+
 {% if project.hashtags %}
-  <div class="project-page-hashtag-container">
+  <div class="page-hashtag-container">
     {% for hashtag in project.hashtags%}
     {% capture posttag %}{{ hashtag }}{% endcapture %}
-    {% include specials/hashtag.html tag=posttag %}
+    {% include hashtag.html tag=posttag %}
     {% endfor %}
   </div>
 {% endif %}
 
-<!-- Wrap the body in a tag and apply link color changes just to project content -->
+
+<!-- Wrap the body in a tag and apply link color changes just to just the content -->
 <style>#project-body a {color: {{ project.color }};}</style>
 <span id="project-body">
+
 {{ content }}
+
 </span>
+
 
 <h2>More Projects</h2>
 <div class="project-index">
-  {% include projects/project-index.html name="americaduck" current=page.key %}
-  {% include projects/project-index.html name="personaldataserver" current=page.key %}
-  {% include projects/project-index.html name="today" current=page.key %}
-  {% include projects/project-index.html name="stringandloop" current=page.key %}
-  {% include projects/project-index.html name="shadesofhate" current=page.key %}
+{% include projects/project-list.html displayTags="false" displayType="index" %}
 </div>

@@ -17,6 +17,7 @@ a.hashtag:hover {
     color: white;
 }
 
-.project-page-hashtag-container {
-
+.page-hashtag-container {
+  @include center;
+  max-width: $max-width;
 }

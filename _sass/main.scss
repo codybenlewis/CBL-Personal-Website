@@ -9,12 +9,6 @@ body {
   margin: 0px;
 }
 
-main, header, footer {
-  @include center;
-}
-
-
-
 a {
   color: inherit;
 }
@@ -27,8 +21,26 @@ a.project-title:hover, .project-index-item a:hover {
   color: $light-gray-solid !important;
 }
 
-h1, h2, h3, h4, h5, h6, p, ol, ul, blockquote, hr, time, header, footer, {
+figure {
   @include center;
+  max-width: $max-width + (6 * $body-padding);
+  margin-top: $vSpacing;
+  margin-bottom: $vSpacing;
+  img {
+    width: 100%;
+  }
+}
+
+figcaption {
+  @include sans-serif;
+  font-size: $font-size-small;
+  color: $light-gray;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, ol, ul, blockquote, hr, time, header, footer, p {
+  @include center;
+  max-width: $max-width;
 }
 
 h1, h2, h3, h4, h5, h6, header, footer {
@@ -67,14 +79,30 @@ h4 {
   margin-bottom: 2rem;
 }
 
+nav {
+  h1, h1 a {
+    text-decoration: none;
+    font-size: inherit;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  a {
+    text-decoration: underline;
+    padding-right: 6px;
+  }
+}
+
 
 main, header, footer {
+
   padding-left: $body-padding;
   padding-right: $body-padding;
 }
 
 
 header, footer {
+  @include center;
   font-size: $font-size-medium;
   line-height: $font-size-medium * 1.5;
   color: $medium-gray;
@@ -88,20 +116,6 @@ header {
 footer {
   margin-top: $vSpacing;
   margin-bottom: $body-padding;
-}
-
-nav {
-  h1, h1 a {
-    text-decoration: none;
-    font-size: inherit;
-    font-weight: 500;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  a {
-    text-decoration: underline;
-    padding-right: 6px;
-  }
 }
 
 
@@ -121,6 +135,7 @@ nav {
   @include sans-serif;
   font-weight: 600;
   font-size: $font-size-large;
+  text-decoration: none;
 }
 
 .project-thumb-container  {

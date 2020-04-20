@@ -12,7 +12,7 @@ shadesofhate:
   color: "#ffc33e"
   thumb: /assets/images/projects/thumbs/shades-of-hate.png
   description: Why I have a Donald Trump poster in my bedroom
-  hashtags: [ kickstarter, test ]
+  hashtags: [ kickstarter, processing, independent, print, 2016]
 
 personaldataserver:
   name: Personal Data Server
@@ -43,3 +43,4 @@ sceneweek:
   description: An ongoing yearly event with my friends. Every once and while I’ll show up to work in eyeliner. It’s okay.
   thumb: /assets/images/projects/thumbs/fpo.png
   url: scene-week
+  hashtags: [ performance, experimental, collaboration ]

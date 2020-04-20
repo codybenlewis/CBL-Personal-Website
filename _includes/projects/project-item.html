@@ -10,6 +10,9 @@ variable that will remove the last trailing space
 {% capture hashtags %}{% for hashtag in item.hashtags %}{{ hashtag }} {% endfor %}{% endcapture %}
 {% assign minusSpace = hashtags | size | minus: 1 %}
 
+
+{% comment %} Structure for product in an primary feature, including a description and hashtags if they've been asked for by the displayTags variable {% endcomment %}
+{% if include.type == "feature" %}
 <div class="project-item" {% if item.hashtags %}data-hashtags="{{ hashtags | slice: 0,minusSpace }}"{% endif %}>
   <div class="project-thumb-container">
     <a href="{{ site.url }}/projects/{{ item.url }}">
@@ -27,9 +30,27 @@ variable that will remove the last trailing space
       <div class="hashtag-container">
         {% for hashtag in item.hashtags%}
         {% capture posttag %}{{ hashtag }}{% endcapture %}
-        {% include specials/hashtag.html tag=posttag %}
+        {% include hashtag.html tag=posttag %}
         {% endfor %}
       </div>
     {% endif %}
   </div>
 </div>
+{% endif %}
+
+
+
+{% comment %} Structure for product in an listed, paragraph style index {% endcomment %}
+{% if include.type == "index" %}
+
+  {% comment %} to avoid repeating links, do not include if the current page is the same as the project asking to be placed {% endcomment %}
+  {% if page.key != include.name %}
+
+  {% comment %} similar to above, include data hashtags if relevant, place the relative url and name it after the project {% endcomment %}
+  <div class="project-index-item" {% if item.hashtags %}data-hashtags="{{ hashtags | slice: 0,minusSpace }}"{% endif %}>
+        <a href="{{ site.url }}/projects/{{ item.url }}"><img class="project-index-thumb" src="{{ item.thumb }}" alt="{{ item.name }}">
+        </a>
+        <a href="{{ site.url }}/projects/{{ item.url }}" style="color: {{ item.color }}">{{ item.name }}{{include.end}}</a>
+      </div>
+  {% endif %}
+{% endif %}

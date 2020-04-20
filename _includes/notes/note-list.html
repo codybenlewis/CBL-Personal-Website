@@ -11,7 +11,7 @@
 
   {% comment %}Add the hashtags to the list item if they exist{% endcomment %}
 
-    <li class="note-item" {% if item.hashtags %}data-hashtags="{{ hashtags | slice: 0,minusSpace }}"{% endif %}><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li class="note-item" {% if item.hashtags %}data-hashtags="{{ hashtags | slice: 0,minusSpace }}"{% endif %}><a href="{{ post.url }}">{{ post.title }}</a>
 
     {% comment %} if there are hashtags, for every one get it and add it in the div {% endcomment %}
 
@@ -20,9 +20,10 @@
     <div class="hashtag-container">
       {% for hashtag in post.hashtags%}
       {% capture posttag %}{{ hashtag }}{% endcapture %}
-      {% include specials/hashtag.html tag=posttag %}
+      {% include hashtag.html tag=posttag %}
       {% endfor %}
       </div>
     {% endif %}
+    </li>
 {% endfor %}
 </ul>

@@ -3,11 +3,11 @@ layout: default
 ---
 
 <h1>{{page.name}}</h1>
-{% if project.hashtags %}
-  <div class="hashtag-container">
-    {% for hashtag in project.hashtags%}
+{% if page.hashtags %}
+  <div class="page-hashtag-container">
+    {% for hashtag in page.hashtags%}
     {% capture posttag %}{{ hashtag }}{% endcapture %}
-    {% include specials/hashtag.html tag=posttag %}
+    {% include hashtag.html tag=posttag %}
     {% endfor %}
   </div>
 {% endif %}
