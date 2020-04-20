@@ -1,5 +1,4 @@
 ---
-name: string&&loop
 key: stringandloop
 ---
 

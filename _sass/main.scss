@@ -10,18 +10,21 @@ body {
 }
 
 main, header, footer {
-  padding-left: $body-padding;
-  padding-right: $body-padding;
   @include center;
 }
 
-p, ul, {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
+
 
 a {
   color: inherit;
+}
+
+a:hover {
+  color: $light-gray-solid;
+}
+
+a.project-title:hover, .project-index-item a:hover {
+  color: $light-gray-solid !important;
 }
 
 h1, h2, h3, h4, h5, h6, p, ol, ul, blockquote, hr, time, header, footer, {
@@ -34,29 +37,42 @@ h1, h2, h3, h4, h5, h6, header, footer {
 }
 
 h1 {
-  font-size: $font-size-large;
+  font-size: $font-size-extra-large;
   font-weight: 500;
   color: $dark-gray;
-  margin-bottom: .5rem;
-  margin-top: .5rem;
+  margin-bottom: 1rem;
+  // margin-top: .75rem;
 }
-
 
 h2 {
   font-size: $font-size-large;
   font-weight: 500;
   color: $dark-gray;
-  margin-bottom: .5rem;
-  margin-top: .5rem;
+  margin-top: $vSpacing;
+  margin-bottom: 1rem;
 }
 
 h3 {
   font-size: $font-size-medium;
   font-weight: 400;
-  color: $light-gray;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
+
+h4 {
+  font-size: $font-size-medium;
+  font-weight: 400;
+  color: $light-gray;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+main, header, footer {
+  padding-left: $body-padding;
+  padding-right: $body-padding;
+}
+
 
 header, footer {
   font-size: $font-size-medium;
@@ -65,8 +81,13 @@ header, footer {
 }
 
 header {
-  padding-bottom: $vSpacing - 1;
-  margin-top: $vSpacing / 2;
+  margin-top: $body-padding;
+  margin-bottom: $vSpacing;
+}
+
+footer {
+  margin-top: $vSpacing;
+  margin-bottom: $body-padding;
 }
 
 nav {
@@ -83,26 +104,23 @@ nav {
   }
 }
 
-section {
-  margin-bottom: $vSpacing;
-}
 
 .project-item{
   @include center;
   display: flex;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .project-title {
   @include sans-serif;
   font-weight: 600;
-  font-size: $font-size-extra-large;
-  margin-bottom: .5rem;
 }
 
-.project-title a:hover {
-    text-decoration: underline;
+.project-item-title{
+  @include sans-serif;
+  font-weight: 600;
+  font-size: $font-size-large;
 }
 
 .project-thumb-container  {

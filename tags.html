@@ -1,0 +1,16 @@
+---
+title: Projects
+permalink: /tags/index.html
+---
+
+<!-- Get the hastag from the url -->
+<script src="/assets/js/filter.js"></script>
+
+<h1 id="filter">All the <span class="filter-title"></span> Things</h1>
+<h2 id="project-filter"><span class="filter-title"></span>Projects</h2>
+<p id="filter-instructions" style="display:none">Try entering something like <a href="https://www.codybenlewis.com/tags/?filter=Kickstarter">https://www.codybenlewis.com/tags/?filter=kickstarter</a> into the browser</p>
+{% include projects/project-list.html displayTags="true" %}
+
+
+<h2 id="note-filter"><span class="filter-title"></span>Notes</h2>
+{% include notes/note-list.html displayTags="true" %}

@@ -1,0 +1,35 @@
+
+{% comment %} Get the name of the project (the key in data) that will be used to get data from {% endcomment %}
+{% assign item = site.data.projects[include.name] %}
+
+{% comment %}
+Get all the data hashtags, add a space between each one and assign a
+variable that will remove the last trailing space
+{% endcomment %}
+
+{% capture hashtags %}{% for hashtag in item.hashtags %}{{ hashtag }} {% endfor %}{% endcapture %}
+{% assign minusSpace = hashtags | size | minus: 1 %}
+
+<div class="project-item" {% if item.hashtags %}data-hashtags="{{ hashtags | slice: 0,minusSpace }}"{% endif %}>
+  <div class="project-thumb-container">
+    <a href="{{ site.url }}/projects/{{ item.url }}">
+      <img class="project-thumb" src="{{ item.thumb }}" alt="{{ item.name }}"></a>
+  </div>
+  <div>
+
+    <div>
+    <a href="{{ site.url }}/projects/{{ item.url }}" class="project-item-title project-title" style="color: {{ item.color }}">{{ item.name }}</a>
+    </div>
+    {{ item.description | replace: ">!", "<span class='spoiler' data-tooltip='Reveal spoiler'>" | replace: '!<', '</span>' }}
+
+    {% capture tags %}{{ include.tags }}{% endcapture %}
+    {% if item.hashtags and tags == "true" %}
+      <div class="hashtag-container">
+        {% for hashtag in item.hashtags%}
+        {% capture posttag %}{{ hashtag }}{% endcapture %}
+        {% include specials/hashtag.html tag=posttag %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>

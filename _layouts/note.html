@@ -2,6 +2,14 @@
 layout: default
 ---
 
-<section>
-  {{ content }}
-</section>
+<h1>{{page.name}}</h1>
+{% if project.hashtags %}
+  <div class="hashtag-container">
+    {% for hashtag in project.hashtags%}
+    {% capture posttag %}{{ hashtag }}{% endcapture %}
+    {% include specials/hashtag.html tag=posttag %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+{{ content }}

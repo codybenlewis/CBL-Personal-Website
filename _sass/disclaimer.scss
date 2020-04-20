@@ -1,0 +1,13 @@
+#disclaimer {
+@include center;
+@include sans-serif;
+text-align: center;
+font-size: $font-size-small * .66;
+line-height: normal;
+
+}
+#disclaimer-container {
+color: white;
+padding: 5px;
+background-color: pink;
+}

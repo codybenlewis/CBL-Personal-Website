@@ -1,5 +1,4 @@
 ---
-name: Personal Data Server
 key: personaldataserver
 ---
 
