@@ -2,6 +2,8 @@
 key: americaduck
 ---
 
+
+### TL;WR
 America Duck is a jacket enhancing patch designed and funded though Kickstarter. After being contacted by {% include specials/spoiler.html redact="C&#42;&#42;&#42;&#42;a G&#42;&#42;&#42;e" %}, who was kind enough to fly my brother and I to their headquarters, I agreed to remove the Kickstarter page from public view. All additional funding went to purchase jackets for Boston's homeless.
 
 ### Press
@@ -35,4 +37,4 @@ Three days after fulfilling all rewards, I received a cease and desist from {% i
 {% include image.html url="projects/americaduck/06.jpg" %}
 {% include image.html url="projects/americaduck/04.jpg" class="large-image print" %}
 
-The patches are no longer for sale.
+After eating our way through Toronto, we returned home with expensive hats, a coffee table book, a good story, and no maple syrup. I tried to smuggle some home. The patches are no longer for sale.

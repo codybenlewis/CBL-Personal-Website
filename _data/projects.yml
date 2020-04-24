@@ -25,7 +25,7 @@ personaldataserver:
 stringandloop:
   name: string&&loop
   color: "#0171cf"
-  description: I wanted to design my own socks. This is what happened.
+  description: I wanted to design my own socks and started a soft wear company.
   thumb: /assets/images/projects/thumbs/fpo.png
   url: stringandloop
   hashtags: [ kickstarter, independent, processing, software, productdesign, 2016 ]
@@ -33,7 +33,7 @@ stringandloop:
 today:
   name: Today
   color: "#615b94"
-  description: I wrote a cold email, made a friend, and worked together on a clock that redefines your perception of time. Now it's in the MoMA.
+  description: I wrote a cold email, made a friend, and worked together on a clock that redefines your perception of time.
   thumb: /assets/images/projects/thumbs/today.png
   url: today
   hashtags: [ productdesign, client, kickstarter, collaboration, 2016 ]
@@ -47,9 +47,25 @@ sceneweek:
   hashtags: [ performance, music, collaboration, 2015 ]
 
 freedomcrown:
-    name: BK Freedom Crown
+    name: Freedom Crown
     color: "#f7a626"
-    description: We made a soda drink hat, except it doesn't hold soda.
+    description: We made a novelty soda drink hat for Burger King, except it doesn't hold soda.
     thumb: /assets/images/projects/thumbs/freedom-crown.png
     url: freedom-crown
     hashtags: [ productdesign, client, agency, 2018 ]
+
+bostonmarathon:
+    name: JetBlue Boston Marathon
+    color: "#031b4f"
+    description: We made on-the-fly posters for Boston Marathon spectators.
+    thumb: /assets/images/projects/thumbs/boston-marathon.png
+    url: boston-marathon
+    hashtags: [ activation, client, agency, 2019 ]
+
+quickdraw:
+    name: Quick, Draw! For Processing
+    color: "#ffc700"
+    description: I developed a Processing library that allows people to easily work with over 50,000 open source drawings.
+    thumb: /assets/images/projects/thumbs/quickdraw.png
+    url: quick-draw-for-processing
+    hashtags: [ independent, processing, software, 2017 ]

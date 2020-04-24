@@ -2,7 +2,8 @@
 key: today
 ---
 
-Working with clockmaker Scott Thrift, I produced the gradient design that was used as the face in his conceptual 24-hour timepiece • [Today](https://www.kickstarter.com/projects/scottthrift/today?ref=discovery&term=scott%20thrift). Colors were curated and sequenced to suggest different stages of the daythereby altering the viewer's perception of time. The clock is currently for sale at the [MoMA Store](https://store.moma.org/clocks/today-clock/122610-122610.html)
+### TL;WR
+Working with clockmaker Scott Thrift, I produced the gradient design that was used as the face in his conceptual 24-hour timepiece [Today](https://www.kickstarter.com/projects/scottthrift/today?ref=discovery&term=scott%20thrift). Colors were curated and sequenced to suggest different stages of the day, thereby altering the viewer's perception of time. The clock is currently for sale at the [MoMA Store](https://store.moma.org/clocks/today-clock/122610-122610.html).
 
 
 ### Press

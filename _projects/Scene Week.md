@@ -2,7 +2,7 @@
 key: sceneweek
 ---
 
-Started in 2015, Scene Week is an independent yearly social event created in collaboration with Taylor Mortell. Taking place during the entire first week of March, we invite our friends to join us in experiencing and documenting the emo phases we never had.
+Started in 2015, Scene Week is a yearly public social event created in collaboration with Taylor Mortell. Taking place during the entire first week of March, we invite our friends to join us in experiencing and documenting the emo phases we never had.
 
 
 {% include image.html url="projects/sceneweek/01.jpg" class="window" %}
