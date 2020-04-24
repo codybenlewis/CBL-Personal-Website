@@ -1,7 +1,7 @@
 americaduck:
   name: America Duck
   color: "#f61a13"
-  description: I made fun of a Jacket brand.
+  description: I made fun of a Jacket brand, got a cease an desist, and left the country with my brother on an international adventure.
   thumb: /assets/images/projects/thumbs/america-duck.png
   url: america-duck
   hashtags: [ productdesign, kickstarter, independent, 2015 ]
@@ -11,36 +11,45 @@ shadesofhate:
   url: shades-of-hate
   color: "#ffc33e"
   thumb: /assets/images/projects/thumbs/shades-of-hate.png
-  description: Why I have a Donald Trump poster in my bedroom
-  hashtags: [ kickstarter, processing, independent, print, 2016]
+  description: I generated a poster of Donald Trump out of thumbs down emoji.
+  hashtags: [ kickstarter, processing, software, independent, print, 2016]
 
 personaldataserver:
   name: Personal Data Server
   color: "#00a988"
-  description: It’s under my desk, and on this website
+  description: I made an enterprise-grade server out of a raspberry pi and put it in my bedroom so you can see what I'm listening to on Spotify.
   thumb: /assets/images/projects/thumbs/personal-data-server.png
   url: personal-data-server
-  hashtags: [ data, server, flask ]
+  hashtags: [ data, software, music, 2018 ]
 
 stringandloop:
   name: string&&loop
   color: "#0171cf"
-  description: Maybe you want to buy some socks?
+  description: I wanted to design my own socks. This is what happened.
   thumb: /assets/images/projects/thumbs/fpo.png
   url: stringandloop
+  hashtags: [ kickstarter, independent, processing, software, productdesign, 2016 ]
 
 today:
   name: Today
   color: "#615b94"
-  description: Writing a cold email, making a friend, and working together on a clock that redefines your perception of time
+  description: I wrote a cold email, made a friend, and worked together on a clock that redefines your perception of time. Now it's in the MoMA.
   thumb: /assets/images/projects/thumbs/today.png
   url: today
-  hashtags: [ productdesign, client ]
+  hashtags: [ productdesign, client, kickstarter, collaboration, 2016 ]
 
 sceneweek:
   name: Scene Week
   color: "#ff66e2"
-  description: An ongoing yearly event with my friends. Every once and while I’ll show up to work in eyeliner. It’s okay.
-  thumb: /assets/images/projects/thumbs/fpo.png
+  description: Lacking essential emo phases as teenagers, my friend Taylor and I decided to have one in our early 20's.
+  thumb: /assets/images/projects/thumbs/scene-week.png
   url: scene-week
-  hashtags: [ performance, experimental, collaboration ]
+  hashtags: [ performance, music, collaboration, 2015 ]
+
+freedomcrown:
+    name: BK Freedom Crown
+    color: "#f7a626"
+    description: We made a soda drink hat, except it doesn't hold soda.
+    thumb: /assets/images/projects/thumbs/freedom-crown.png
+    url: freedom-crown
+    hashtags: [ productdesign, client, agency, 2018 ]

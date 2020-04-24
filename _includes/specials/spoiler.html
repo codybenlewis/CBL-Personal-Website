@@ -1,1 +1,2 @@
-<span class="spoiler" data-tooltip="Reveal spoiler">{{include.secret}}</span>
+{%- if include.secret -%}<span class="spoiler" data-tooltip="Reveal spoiler">{{include.secret}}</span>{%- endif -%}
+{%- if include.redact -%}<span class="redact">{{include.redact}}</span>{%- endif -%}

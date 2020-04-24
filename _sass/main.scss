@@ -18,6 +18,11 @@ a.project-title:hover, .project-index-item a:hover {
   color: $light-gray-solid !important;
 }
 
+
+b, strong {
+  @include sans-serif;
+}
+
 figure {
   @include center;
   max-width: $max-width + (6 * $body-padding);
@@ -33,6 +38,13 @@ figcaption {
   font-size: $font-size-small;
   color: $light-gray;
 }
+
+blockquote {
+  padding: 0 1em;
+  color: $medium-gray;
+  border-left: .25em solid #dfe2e5;
+}
+
 
 
 h1, h2, h3, h4, h5, h6, p, ol, ul, blockquote, hr, time, header, footer, p {
@@ -63,7 +75,7 @@ h2 {
 
 h3 {
   font-size: $font-size-medium;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -192,4 +204,13 @@ max-width: 15rem;
 display: block;
 margin: auto;
 max-width: 25rem;
+}
+
+.window {
+  border-radius: 5px;
+  box-shadow: 0px 15px 30px rgba(0,0,0,.15);
+}
+
+.print {
+  box-shadow: 0px 1px 2px rgba(0,0,0,.10);
 }

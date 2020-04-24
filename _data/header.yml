@@ -1,7 +1,5 @@
 - name: Projects
   link: /projects
-- name: Notes
-  link: /notes
 - name: About
   link: /about
 - name: E-Mail
