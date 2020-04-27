@@ -2,7 +2,6 @@
 key: shadesofhate
 ---
 
-### TL;WR
 Shades of Hate is a mosaic poster of President Donald Trump using the entire spectrum of thumbs down and middle finger skin tone emoji. The project was put on Kickstarter in October of 2016 in order to produce silkscreen prints of the design, but was ultimately unsuccessful in reaching its funding goal. The only large scale printed version now lives in my bedroom.
 
 {% include image.html url="projects/shadesofhate/01.jpg" class="large-image print" id="trump" zoom="true" %}
@@ -10,13 +9,13 @@ Shades of Hate is a mosaic poster of President Donald Trump using the entire spe
 
 ## Here's Why
 
-At the time of their release the race emoji felt uncomfortable. On the other hand, embracing the diversity that makes up the human spectrum was never more important. I didn't like using the originally default white ones that spawned online racial tension. I also couldn't broadly use the non-white ones and be insensitive. Making everything yellow/non-human was intended to be an improvement, but by purposely ignoring diversity and living in a Simposons world we turn a blind eye to the truth. Faced without answers, I began using all the shades.
+At the time of their release the race emoji were uncomfortable. On the other hand, embracing the diversity that makes up the human spectrum was never more important. I didn't like using the originally default white ones that spawned online racial tension. I also couldn't broadly use the non-white ones and be seen as insensitive. Making everything yellow/non-human was intended to be an improvement, but by purposely ignoring diversity we turn a blind eye to the truth. Faced without answers, I began using all the shades together.
 
 After sending a long message of gradient skin tones to a friend, I took a second to look at deep range of values people come in. Together they could make a beautiful picture.
 
 {% include image.html url="projects/shadesofhate/02.png" class="medium-image" %}
 
-So, I developed a program that converts a black and white image into 6 tones, and overlays them with the appropriate emoji. I used my own face as the base image for testing.
+I developed a program that converts a black and white image into 6 tones, and overlays them with the appropriate emoji. My own face was used as the base image for testing.
 
 {% include image.html url="projects/shadesofhate/03.jpg" description="Output from the original program" border="true"%}
 

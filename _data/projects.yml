@@ -12,7 +12,7 @@ shadesofhate:
   color: "#ffc33e"
   thumb: /assets/images/projects/thumbs/shades-of-hate.png
   description: I generated a poster of Donald Trump out of thumbs down emoji.
-  hashtags: [ kickstarter, processing, software, independent, print, 2016]
+  hashtags: [ kickstarter, processing, software, independent, 2016]
 
 personaldataserver:
   name: Personal Data Server
@@ -44,7 +44,7 @@ sceneweek:
   description: Lacking essential emo phases as teenagers, my friend Taylor and I decided to have one in our early 20's.
   thumb: /assets/images/projects/thumbs/scene-week.png
   url: scene-week
-  hashtags: [ performance, music, collaboration, 2015 ]
+  hashtags: [ experimental, collaboration, music, 2015 ]
 
 freedomcrown:
     name: Freedom Crown
@@ -68,4 +68,12 @@ quickdraw:
     description: I developed a Processing library that allows people to easily work with over 50,000 open source drawings.
     thumb: /assets/images/projects/thumbs/quickdraw.png
     url: quick-draw-for-processing
-    hashtags: [ independent, processing, software, 2017 ]
+    hashtags: [ independent, processing, software, data, 2017 ]
+
+seacretsanta:
+      name: Seacret Santa
+      color: "#ff4500"
+      description: We had Royal Caribbean win Reddit's 2017 Secret Santa Gift Exchange and made a stranger ugly cry on the internet
+      thumb: /assets/images/projects/thumbs/fpo.png
+      url: seacret-santa
+      hashtags: [ activation, client, agency, 2017 ]

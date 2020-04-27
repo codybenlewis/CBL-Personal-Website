@@ -3,7 +3,7 @@ title: About
 permalink: /about/index.html
 ---
 
-# All About Me
+# About Me
 
 Let’s see. So I grew up in Randolph, NJ, where the town slogan was “where life is worth living.” I kid you not. I wont argue how accurate that statement is, but you’re free to make your own assumptions. Growing up I always loved art, business, and technology. It wasn’t until I grew older that I started to put them together.
 

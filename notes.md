@@ -4,6 +4,6 @@ title: Notes
 permalink: /notes/index.html
 ---
 
-# All The Notes
+# Notes
 
 {% include notes/note-list.html %}
