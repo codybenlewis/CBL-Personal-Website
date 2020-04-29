@@ -1,7 +1,7 @@
 <footer>
   <nav>
     <h1>Let's Be Friends</h1> {% for item in site.data.footer %}
-    <a href="{{ item.link }}">{{ item.name }}</a> {% endfor %}
+    <a href="{{ item.link }}" {% if item.external %}target="_blank"{% endif %}>{{ item.name }}</a> {% endfor %}
   </nav>
 
   <div class="copyright">

@@ -2,7 +2,7 @@
   <nav>
     <h1><a href="/">Cody Ben Lewis Makes Things</a></h1>
     {% for item in site.data.header %}
-      <a href="{{ item.link }}">{{ item.name }}</a>
+      <a href="{{ item.link }}" {% if item.external %}target="_blank"{% endif %}>{{ item.name }}</a>
     {% endfor %}
   </nav>
 </header>

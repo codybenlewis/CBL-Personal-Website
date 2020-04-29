@@ -5,7 +5,7 @@ permalink: /about/index.html
 
 # About
 
-Let’s see. So I grew up in Randolph, NJ, where the town motto is “where life is worth living.” I wont argue how accurate it is, but you’re free to make your own assumptions. Growing up I always loved art, business, and technology, though it wasn’t until I got older that I started to put them together.
+Let’s see. So I grew up in Randolph, NJ, where the town motto is “where life is worth living.” I won't argue how accurate it is, but you’re free to make your own assumptions. Growing up I always loved art, business, and technology, though it wasn’t until I got older that I started to put them together.
 
 I went off to college to Boston Univeristy, studying graphic design and [graduating with honors](https://youtu.be/M1B3gATS0GE?t=877){:target="_blank"} in 2016. I’ve been living in Boston since, most recently working as a Creative Technologist at MullenLowe.
 
