@@ -16,11 +16,7 @@ defaults:
       layout: "note"
       permalink: :year/:title/
 
-
 collections:
   projects:
     output: true
     permalink: :collection/:name/
-
-gems:
-  - jekyll-octicons

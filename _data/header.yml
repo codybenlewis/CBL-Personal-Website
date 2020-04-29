@@ -3,7 +3,6 @@
 - name: About
   link: /about
 - name: Resume
-  link: /assets/files/Cody-Ben-Lewis-Spring-2020-Resume.pdf
-  external: true
+  link: /resume
 - name: E-Mail
   link: "mailto:cblewisnj@gmail.com?subject=I clicked the %22E-Mail%22 link on your website"

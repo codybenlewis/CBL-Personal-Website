@@ -1,12 +1,12 @@
-- name: Twitter
-  link: "https://www.twitter.com/codybenlewis"
-  external: true
 - name: Instagram
   link: "https://www.instagram.com/codybenlewis"
   external: true
-- name: LinkedIn
-  link: "https://www.linkedin.com/in/codybenlewis/"
+- name: Twitter
+  link: "https://www.twitter.com/codybenlewis"
   external: true
 - name: Github
   link: "https://www.github.com/codybenlewis"
+  external: true
+- name: LinkedIn
+  link: "https://www.linkedin.com/in/codybenlewis/"
   external: true

@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Notes
 permalink: /notes/index.html
 ---

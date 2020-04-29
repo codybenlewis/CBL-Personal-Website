@@ -4,7 +4,7 @@ americaduck:
   description: I made fun of a Jacket brand, got a cease an desist, and left the country with my brother on an international adventure.
   thumb: /assets/images/projects/thumbs/america-duck.png
   url: /projects/america-duck
-  hashtags: [ productdesign, kickstarter, independent, pysicial, digital, 2015 ]
+  hashtags: [ productdesign, kickstarter, independent, physical, 2015 ]
 
 shadesofhate:
   name: Shades of Hate
@@ -12,7 +12,7 @@ shadesofhate:
   description: I made a portrait of a man with small hands, out of small hands.
   thumb: /assets/images/projects/thumbs/shades-of-hate.png
   url: /projects/shades-of-hate
-  hashtags: [ kickstarter, processing, software, independent, physical, digital, 2016]
+  hashtags: [ kickstarter, processing, software, independent, physical, 2016]
 
 personaldataserver:
   name: Personal Data Server
