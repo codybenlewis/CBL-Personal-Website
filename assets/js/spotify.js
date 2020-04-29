@@ -45,8 +45,8 @@ function getSpotify() {
                         <div id='marquee'> \
                           <span> \
                             I'm currently listening to \
-                            <a href='" + data.track_link + "'> " + data.track + "</a> by \
-                            <a href = '" + data.artist_link + "'> " + data.artist + "</a> \
+                            <a href='" + data.track_link + "'target='_blank'> " + data.track + "</a> by \
+                            <a href = '" + data.artist_link + "'target='_blank'> " + data.artist + "</a> \
                             on Spotify. \
                           <span> \
                         </div> \
@@ -57,6 +57,10 @@ function getSpotify() {
                       </div>";
 
       $("#spotify").html(sentence);
+
+      if ( $( "#spotify-data" ).length ) {
+        $("#spotify-data").html(" <a href='" + data.track_link + "'target='_blank'> " + data.track + "</a> by <a href = '" + data.artist_link + "'target='_blank'> " + data.artist + "</a>");
+      }
 
       makeMarquee();
 
@@ -82,8 +86,8 @@ function getSpotify() {
                           <div id='marquee'> \
                             <span> \
                               I was just listening to  \
-                              <a href='" + data.track_link + "'>" + data.track + "</a> by \
-                              <a href = '" + data.artist_link + "'> " + data.artist + "</a> \
+                              <a href='" + data.track_link + "' target='_blank'>" + data.track + "</a> by \
+                              <a href = '" + data.artist_link + "' target='_blank'> " + data.artist + "</a> \
                               on Spotify. \
                             </span> \
                           </div> \
@@ -94,6 +98,10 @@ function getSpotify() {
                         </div>";
 
         $("#spotify").html(sentence);
+
+        if ( $( "#spotify-data" ).length ) {
+          $("#spotify-data").html(" <a href='" + data.track_link + "'target='_blank'> " + data.track + "</a> by <a href = '" + data.artist_link + "'target='_blank'> " + data.artist + "</a>");
+        }
 
         makeMarquee();
 

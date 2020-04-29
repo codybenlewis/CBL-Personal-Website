@@ -3,77 +3,86 @@ americaduck:
   color: "#f61a13"
   description: I made fun of a Jacket brand, got a cease an desist, and left the country with my brother on an international adventure.
   thumb: /assets/images/projects/thumbs/america-duck.png
-  url: america-duck
-  hashtags: [ productdesign, kickstarter, independent, 2015 ]
+  url: /projects/america-duck
+  hashtags: [ productdesign, kickstarter, independent, pysicial, digital, 2015 ]
 
 shadesofhate:
   name: Shades of Hate
-  url: shades-of-hate
   color: "#ffc33e"
+  description: I made a portrait of a man with small hands, out of small hands.
   thumb: /assets/images/projects/thumbs/shades-of-hate.png
-  description: I generated a poster of Donald Trump out of thumbs down emoji.
-  hashtags: [ kickstarter, processing, software, independent, 2016]
+  url: /projects/shades-of-hate
+  hashtags: [ kickstarter, processing, software, independent, physical, digital, 2016]
 
 personaldataserver:
   name: Personal Data Server
   color: "#00a988"
-  description: I made an enterprise-grade server out of a raspberry pi and put it in my bedroom so you can see what I'm listening to on Spotify.
+  description: I made a Raspberry Pi server that delivers live Spotify listening data.
   thumb: /assets/images/projects/thumbs/personal-data-server.png
-  url: personal-data-server
-  hashtags: [ data, software, music, 2018 ]
+  url: /projects/personal-data-server
+  hashtags: [ data, software, music, digital, 2018 ]
 
 stringandloop:
-  name: string&&loop
+  name: "string&&loop <span class='fas fa-external-link-square-alt'></span>"
   color: "#0171cf"
-  description: I wanted to design my own socks and started a soft wear company.
-  thumb: /assets/images/projects/thumbs/fpo.png
-  url: stringandloop
-  hashtags: [ kickstarter, independent, processing, software, productdesign, 2016 ]
+  external: true
+  description: I made a "soft wear" company.
+  thumb: /assets/images/projects/thumbs/stringandloop.png
+  url: "https://www.stringandloop.com/"
+  hashtags: [ kickstarter, independent, processing, software, productdesign, physical, digital, 2016 ]
 
 today:
   name: Today
   color: "#615b94"
-  description: I wrote a cold email, made a friend, and worked together on a clock that redefines your perception of time.
+  description: We made a clock that redefines your perception of time.
   thumb: /assets/images/projects/thumbs/today.png
-  url: today
-  hashtags: [ productdesign, client, kickstarter, collaboration, 2016 ]
+  url: /projects/today
+  hashtags: [ productdesign, client, kickstarter, collaboration, physical, 2016 ]
 
 sceneweek:
   name: Scene Week
   color: "#ff66e2"
-  description: Lacking essential emo phases as teenagers, my friend Taylor and I decided to have one in our early 20's.
+  description: We made an annual event where you can experince the emo phase you never had as a teenager.
   thumb: /assets/images/projects/thumbs/scene-week.png
-  url: scene-week
-  hashtags: [ experimental, collaboration, music, 2015 ]
+  url: /projects/scene-week
+  hashtags: [ event, collaboration, music, physical, 2015 ]
 
 freedomcrown:
     name: Freedom Crown
     color: "#f7a626"
-    description: We made a novelty soda drink hat for Burger King, except it doesn't hold soda.
+    description: We made a hat that holds your hamburger.
     thumb: /assets/images/projects/thumbs/freedom-crown.png
-    url: freedom-crown
-    hashtags: [ productdesign, client, agency, 2018 ]
+    url: /projects/freedom-crown
+    hashtags: [ productdesign, client, agency, physical, 2018 ]
 
 bostonmarathon:
     name: JetBlue Boston Marathon
     color: "#031b4f"
-    description: We made on-the-fly posters for Boston Marathon spectators.
+    description: We made posters on-the-fly for Boston Marathon spectators.
     thumb: /assets/images/projects/thumbs/boston-marathon.png
-    url: boston-marathon
-    hashtags: [ activation, client, agency, 2019 ]
+    url: /projects/boston-marathon
+    hashtags: [ event, activation, client, agency, physical, digital, 2019 ]
 
 quickdraw:
     name: Quick, Draw! For Processing
     color: "#ffc700"
-    description: I developed a Processing library that allows people to easily work with over 50,000 open source drawings.
+    description: I made a Processing library that allows people to play with over 50,000 open source drawings.
     thumb: /assets/images/projects/thumbs/quickdraw.png
-    url: quick-draw-for-processing
-    hashtags: [ independent, processing, software, data, 2017 ]
+    url: /projects/quick-draw-for-processing
+    hashtags: [ independent, processing, software, data, digital, 2017 ]
 
 seacretsanta:
       name: Seacret Santa
       color: "#ff4500"
-      description: We had Royal Caribbean win Reddit's 2017 Secret Santa Gift Exchange and made a stranger ugly cry on the internet
-      thumb: /assets/images/projects/thumbs/fpo.png
-      url: seacret-santa
-      hashtags: [ activation, client, agency, 2017 ]
+      description: We made three stangers holiday wishes come true through Royal Caribbean.
+      thumb: /assets/images/projects/thumbs/seacret-santa.png
+      url: /projects/seacret-santa
+      hashtags: [ activation, client, agency, physical, digital, 2017 ]
+
+giantmanchild:
+      name: Giant Man-Child
+      color: "#ff4500"
+      description: I made a poster that represents a fairly-evident personal truth.
+      thumb: /assets/images/projects/thumbs/giantmanchild.png
+      url: /projects/giant-man-child
+      hashtags: [ print, physical, 2014 ]

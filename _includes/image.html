@@ -1,5 +1,5 @@
 <figure>
-  {% if include.link %}<a href="{{ include.link }}">{% endif %}
+  {% if include.link %}<a href="{{ include.link }}" target="_blank">{% endif %}
     <img id="{{ include.id }}" class="{{ include.class }}" src="/assets/images/{{ include.url }}" alt="{{ include.alt }}" {% if include.border == "true" %}style="border: solid 1px rgba(128,128,128,0.1)"{% endif %}>
   {% if include.link %}</a>{% endif %}
   <figcaption>{{ include.description }}</figcaption>

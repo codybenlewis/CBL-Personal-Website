@@ -21,3 +21,6 @@ collections:
   projects:
     output: true
     permalink: :collection/:name/
+
+gems:
+  - jekyll-octicons

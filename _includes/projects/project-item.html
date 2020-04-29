@@ -15,13 +15,13 @@ variable that will remove the last trailing space
 {% if include.type == "feature" %}
 <div class="project-item" {% if item.hashtags %}data-hashtags="{{ hashtags | slice: 0,minusSpace }}"{% endif %}>
   <div class="project-thumb-container">
-    <a href="{{ site.url }}/projects/{{ item.url }}">
+    <a href="{{ item.url }}" {% if item.external %}target="_blank"{% endif %}>
       <img class="project-thumb" src="{{ item.thumb }}" alt="{{ item.name }}"></a>
   </div>
   <div>
 
     <div>
-    <a href="{{ site.url }}/projects/{{ item.url }}" class="project-item-title project-title" style="color: {{ item.color }}">{{ item.name }}</a>
+    <a href="{{ item.url }}" {% if item.external %}target="_blank"{% endif %} class="project-item-title project-title" style="color: {{ item.color }}">{{ item.name }}</a>
     </div>
     {{ item.description | replace: ">!", "<span class='spoiler' data-tooltip='Reveal spoiler'>" | replace: '!<', '</span>' }}
 
@@ -48,9 +48,9 @@ variable that will remove the last trailing space
 
   {% comment %} similar to above, include data hashtags if relevant, place the relative url and name it after the project {% endcomment %}
   <div class="project-index-item" {% if item.hashtags %}data-hashtags="{{ hashtags | slice: 0,minusSpace }}"{% endif %}>
-        <a href="{{ site.url }}/projects/{{ item.url }}"><img class="project-index-thumb" src="{{ item.thumb }}" alt="{{ item.name }}">
+        <a href="{{ item.url }}" {% if item.external %}target="_blank"{% endif %}><img class="project-index-thumb" src="{{ item.thumb }}" alt="{{ item.name }}">
         </a>
-        <a href="{{ site.url }}/projects/{{ item.url }}" style="color: {{ item.color }}">{{ item.name }}{{include.end}}</a>
+        <a href="{{ item.url }}" {% if item.external %}target="_blank"{% endif %} style="color: {{ item.color }}">{{ item.name }}{{include.end}}</a>
       </div>
   {% endif %}
 {% endif %}

@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% assign project = site.data.projects[page.key] %}
+<script>favicon.change("{{ project.thumb }}");</script>
 <h1 class="project-page-title project-title" style="color: {{ project.color }}">{{project.name}}</h1>
 
 

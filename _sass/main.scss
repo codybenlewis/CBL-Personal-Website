@@ -29,11 +29,12 @@ b, strong {
   @include sans-serif;
 }
 
-figure {
+figure,  {
   @include center;
   max-width: $max-width + (6 * $body-padding);
   margin-top: $vSpacing;
   margin-bottom: $vSpacing;
+  position: relative;
   img {
     width: 100%;
   }
@@ -219,4 +220,20 @@ max-width: 25rem;
 
 .print {
   box-shadow: 0px 1px 2px rgba(0,0,0,.10);
+}
+
+.videoWrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  margin: auto;
+  padding-bottom: 56.24%;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
