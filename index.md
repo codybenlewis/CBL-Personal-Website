@@ -2,7 +2,8 @@
 title: Cody Ben Lewis
 ---
 
-{% include specials/intro.html %}
+Artist, designer, creative technologist. Everyone seems to have a different label for what I do. I make fun things. My favorite are below, but what do you want to see?<br>{% include hashtag.html tag="art" %} {% include hashtag.html tag="design" %} {% include hashtag.html tag="technology" %} {% include hashtag.html tag="physical" %} {% include hashtag.html tag="digital" %}
+
 
 ## Favorite Projects
 

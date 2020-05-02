@@ -1,11 +1,17 @@
 ---
 ---
+
+// Global must come first to prevent depdency errors
 @import "global";
+
+
+@import "disclaimer";
+@import "hashtags";
 @import "main";
+@import "more";
+// @import "rainbow";
 @import "responsive";
+@import "resume";
 @import "spoiler";
 @import "spotify";
-@import "hashtags";
-@import "disclaimer";
-@import "resume";
-// @import "rainbow";
+@import "table";

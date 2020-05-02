@@ -9,7 +9,7 @@ Shades of Hate is a mosaic poster of President Donald Trump using the entire spe
 
 ## Here's Why
 
-At the time of their release the race emoji were uncomfortable. On the other hand, embracing the diversity that makes up the human spectrum was never more important. I didn't like using the originally default white emoji that spawned online racial tension. I also couldn't broadly use the non-white emoji and be seen as insensitive. Making everything yellow/non-human was intended to be an improvement, but by purposely ignoring diversity we turn a blind eye to the truth. Faced without answers, I began using all the shades together.
+At the time of their releasel, the race emoji were uncomfortable. On the other hand, embracing the diversity that makes up the human spectrum was never more important. I didn't like using the originally default white emoji that spawned online racial tension. I also couldn't broadly use the non-white emoji and be seen as insensitive. Making everything yellow/non-human was intended to be an improvement, but by purposely ignoring diversity we turn a blind eye to the truth. Faced without answers, I began using all the shades together.
 
 After sending a long message of gradient skin tones to a friend, I took a second to look at deep range of values people come in. Together they could make a beautiful picture.
 

@@ -6,7 +6,6 @@ Working with clockmaker Scott Thrift, I produced the gradient design that was us
 
 
 ### Press
-
  [Huffington Post](http://www.huffingtonpost.com/greg-kushnick-psyd/someone-just-invented-a-t_b_10726006.html){:target="_blank"}
  • [AIGA Eye on Design](http://eyeondesign.aiga.org/want-to-be-more-productive-stop-telling-time-with-numbers/){:target="_blank"}
  • [WIRED](http://%20http//www.wired.com/2016/06/24-hour-clock-will-help-slow/){:target="_blank"}
@@ -18,6 +17,8 @@ Working with clockmaker Scott Thrift, I produced the gradient design that was us
  • [This is Colossal](http://www.thisiscolossal.com/2016/06/this-24-hour-clock-gradually-transitions-you-from-dusk-to-dawn/){:target="_blank"}
  • [Design Milk](http://design-milk.com/24-hour-clock-designed-change-way-see-day/?utm_source=dlvr.it&amp;utm_medium=twitter){:target="_blank"}
  • [PSFK](http://www.psfk.com/2016/06/this-clock-reframes-our-perception-of-time.html){:target="_blank"}
+ <span class="moreHide">... <a>more</a></span>
+ <span class="moreShow">
  • [Mental Floss](http://mentalfloss.com/article/81239/psychedelic-24-hour-clock-will-change-how-you-think-about-time){:target="_blank"}
  • [FvF](http://blog.freundevonfreunden.com/post/145400014223/product-design-today-timepiece-this-innovative){:target="_blank"}
  • [CTV News](http://www.ctvnews.ca/sci-tech/time-ticks-slower-24-hour-clock-rakes-in-pledges-on-kickstarter-1.2944701?hootPostID=ccc31da4f16dee8de7f7cf6fb889cc50){:target="_blank"}
@@ -36,6 +37,7 @@ Working with clockmaker Scott Thrift, I produced the gradient design that was us
  • [Trusted Reviews](http://www.trustedreviews.com/news/today-is-a-clock-that-makes-the-day-seem-longer){:target="_blank"}
  • [StupidDope](http://stupiddope.com/2016/06/06/a-new-way-to-time-the-today-clock-by-scott-thrift/){:target="_blank"}
  • [Cool Mom Tech](http://coolmomtech.com/2016/06/today-clock-gives-more-hours-in-your-day-scott-thrift/){:target="_blank"}
+ </span>
 
 {% include image.html url="projects/today/01.png"%}
 {% include image.html url="projects/today/02.png"%}

@@ -4,15 +4,12 @@ layout: resume
 permalink: /resume/index.html
 ---
 
-Artist, designer, developer, entrepreneur, art director, copywriter, creative technologist, dare I even say generalist. Everyone seems to have a different label for what I am. I try not to let it matter that much. I make things. If you like them, [let's talk](mailto:cblewisnj@gmail.com?subject=I clicked the %22let%27s talk%22 link on your  website).
 
 #### [Download My Resume](assets/files/Cody-Ben-Lewis-Spring-2020-Resume.pdf){:target="_blank"}
 
-## Education
 
-### **Boston University** | Boston MA
-#### BFA in Graphic Design, Minor in Advertising - Fall 2012 to Spring 2016
-#### Venice Studio Arts Program - Spring 2014
+## Stuff I Know
+Adobe Creative Suite (including After Effects) • HTML • CSS • Javascript • JQuery • JSON • Processing • Python • Flask • Jekyll • Liquid • Arudino • Raspberry Pi • Web APIs • Kickstarter • Microsoft Office Suite • Google Docs • Sarcasm
 
 ## Jobs
 
@@ -51,6 +48,8 @@ Artist, designer, developer, entrepreneur, art director, copywriter, creative te
 *	Sanitized shelter environment, prepped kennels, and picked the best toys for good boys and girls
 *	Clients Include: JP the Chesepeake, Cabrini the Hound, Ace the Shepherd/Lab Mix
 
+## Education
 
-## Stuff I Know
-Adobe Creative Suite • Microsoft Office Suite • Google Docs • Kickstarter • HTML • CSS • CMS • Javascript • JQuery JSON • Processing • P5JS • Python • Flask • Jekyll • Liquid • Arudino • Raspberry Pi • Web APIs • Sarcasm
+### **Boston University** | Boston MA
+#### BFA in Graphic Design, Minor in Advertising - Fall 2012 to Spring 2016
+#### Venice Studio Arts Program - Spring 2014

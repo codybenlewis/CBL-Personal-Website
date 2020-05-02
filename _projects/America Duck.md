@@ -3,7 +3,7 @@ key: americaduck
 ---
 
 <!-- markup clean_ -->
-America Duck is a jacket enhancing patch designed and funded though Kickstarter. After being contacted by {% include specials/spoiler.html redact="C&#42;&#42;&#42;&#42;a G&#42;&#42;&#42;e" %}, who was kind enough to fly my brother and I to their headquarters, I agreed to remove the Kickstarter page from public view. All additional funding went to purchase jackets for Boston's homeless.
+America Duck is a jacket enhancing patch that commented on luxury brands. The project was designed and funded though Kickstarter. After being contacted by {% include specials/spoiler.html redact="C&#42;&#42;&#42;&#42;a G&#42;&#42;&#42;e" %}, who was kind enough to fly my brother and I to their headquarters, I agreed to remove the Kickstarter page from public view. All additional funding went to purchase jackets for Boston's homeless.
 
 ### Press
 [BostInno](https://www.americaninno.com/boston/cheap-canada-goose-coats-in-american-duck-parody/){:target="_blank"}

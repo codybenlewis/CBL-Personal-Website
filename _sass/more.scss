@@ -1,0 +1,13 @@
+.moreHide {
+  @include sans-serif;
+  white-space: nowrap;
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: $light-gray !important;
+   }
+}
+
+.moreShow {
+  display: none;
+}

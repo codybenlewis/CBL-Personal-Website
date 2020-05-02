@@ -12,7 +12,7 @@ When Burger King was looking for an overly-Americana way to launch the American 
 • [Fox Business](https://www.foxbusiness.com/features/burger-king-and-budweiser-partner-up){:target="_blank"}
 • [AdAge](https://adage.com/article/advertising/budweiser-s-whassup-returns-burger-king-crashed-party/314045){:target="_blank"}
 • [Daily Mail](https://www.dailymail.co.uk/femail/article-5893491/Burger-King-revives-iconic-Whassup-commercial.html){:target="_blank"}
-• [The Daily Meal (Unrelated)](https://www.thedailymeal.com/eat/budweiser-whassup-ad-burger-king-crown-watch/062618){:target="_blank"}
+• [The Daily Meal](https://www.thedailymeal.com/eat/budweiser-whassup-ad-burger-king-crown-watch/062618){:target="_blank"}
 
 {% include image.html url="projects/freedomcrown/01.jpg" %}
 {% include image.html url="projects/freedomcrown/02.jpg" %}

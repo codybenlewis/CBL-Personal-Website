@@ -4,7 +4,7 @@ americaduck:
   description: I made fun of a Jacket brand, got a cease an desist, and left the country with my brother on an international adventure.
   thumb: /assets/images/projects/thumbs/america-duck.png
   url: /projects/america-duck
-  hashtags: [ productdesign, kickstarter, independent, physical, 2015 ]
+  hashtags: [ art, design, physical, product, independent, kickstarter, 2015 ]
 
 shadesofhate:
   name: Shades of Hate
@@ -12,7 +12,7 @@ shadesofhate:
   description: I made a portrait of a man with small hands, out of small hands.
   thumb: /assets/images/projects/thumbs/shades-of-hate.png
   url: /projects/shades-of-hate
-  hashtags: [ kickstarter, processing, software, independent, physical, 2016]
+  hashtags: [ art, design, technology, physicial, independent, kickstarter, processing, 2016]
 
 personaldataserver:
   name: Personal Data Server
@@ -20,7 +20,7 @@ personaldataserver:
   description: I made a Raspberry Pi server that delivers live Spotify listening data.
   thumb: /assets/images/projects/thumbs/personal-data-server.png
   url: /projects/personal-data-server
-  hashtags: [ data, software, music, digital, 2018 ]
+  hashtags: [ technology, digital, independent, music, data, 2018 ]
 
 stringandloop:
   name: "string&&loop <span class='fas fa-external-link-square-alt'></span>"
@@ -29,7 +29,7 @@ stringandloop:
   description: I made a "soft wear" company.
   thumb: /assets/images/projects/thumbs/stringandloop.png
   url: "https://www.stringandloop.com/"
-  hashtags: [ kickstarter, independent, processing, software, productdesign, physical, digital, 2016 ]
+  hashtags: [ art, design, technology, physical, digital, product, independent, kickstarter, processing, 2016 ]
 
 today:
   name: Today
@@ -37,7 +37,7 @@ today:
   description: We made a clock that redefines your perception of time.
   thumb: /assets/images/projects/thumbs/today.png
   url: /projects/today
-  hashtags: [ productdesign, client, kickstarter, collaboration, physical, 2016 ]
+  hashtags: [ art, design, physical, product, client, kickstarter, 2016 ]
 
 sceneweek:
   name: Scene Week
@@ -45,7 +45,7 @@ sceneweek:
   description: We made an annual event where you can experince the emo phase you never had as a teenager.
   thumb: /assets/images/projects/thumbs/scene-week.png
   url: /projects/scene-week
-  hashtags: [ event, collaboration, music, physical, 2015 ]
+  hashtags: [ art, physical, event, collaboration, music, 2015 ]
 
 freedomcrown:
     name: Freedom Crown
@@ -53,7 +53,7 @@ freedomcrown:
     description: We made a hat that holds your hamburger.
     thumb: /assets/images/projects/thumbs/freedom-crown.png
     url: /projects/freedom-crown
-    hashtags: [ productdesign, client, agency, physical, 2018 ]
+    hashtags: [ design, physical, product, client, agency, 2018 ]
 
 bostonmarathon:
     name: JetBlue Boston Marathon
@@ -61,7 +61,7 @@ bostonmarathon:
     description: We made posters on-the-fly for Boston Marathon spectators.
     thumb: /assets/images/projects/thumbs/boston-marathon.png
     url: /projects/boston-marathon
-    hashtags: [ event, activation, client, agency, physical, digital, 2019 ]
+    hashtags: [ design, technology, physical, digital, event, activation, client, agency, 2019 ]
 
 quickdraw:
     name: Quick, Draw! For Processing
@@ -69,15 +69,15 @@ quickdraw:
     description: I made a Processing library that allows people to play with over 50,000 open source drawings.
     thumb: /assets/images/projects/thumbs/quickdraw.png
     url: /projects/quick-draw-for-processing
-    hashtags: [ independent, processing, software, data, digital, 2017 ]
+    hashtags: [ art, technology, digital, independent, processing, data, 2017 ]
 
 seacretsanta:
       name: Seacret Santa
       color: "#ff4500"
-      description: We made three stangers holiday wishes come true through Royal Caribbean.
+      description: We made three stangers holiday wishes come true.
       thumb: /assets/images/projects/thumbs/seacret-santa.png
       url: /projects/seacret-santa
-      hashtags: [ activation, client, agency, physical, digital, 2017 ]
+      hashtags: [ design, technology, physical, digital, activation, client, agency, 2017 ]
 
 giantmanchild:
       name: Giant Man-Child
@@ -85,4 +85,4 @@ giantmanchild:
       description: I made a poster that represents a fairly-evident personal truth.
       thumb: /assets/images/projects/thumbs/giantmanchild.png
       url: /projects/giant-man-child
-      hashtags: [ print, physical, 2014 ]
+      hashtags: [ art, design, physical, independent, 2014 ]

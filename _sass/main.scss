@@ -53,6 +53,10 @@ blockquote {
 }
 
 
+sup {
+  
+}
+
 
 h1, h2, h3, h4, h5, h6, p, ol, ul, blockquote, hr, time, header, footer, p {
   @include center;
@@ -108,7 +112,6 @@ nav {
     padding-right: 6px;
   }
 }
-
 
 main, header, footer {
 
