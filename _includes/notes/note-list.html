@@ -1,29 +1,46 @@
-{% comment %}Wrap the for loop in a tag to prevent preprocessing{% endcomment %}
+{% comment %}Wrap the for loop in a tag to prevent preprocessing. Use <ul> when sorting not sorting by year, and <div otherwise>{% endcomment %}
 <ul>
+
 {% comment %}Since notes will be in a standard order, use loops to avoid having a separate include to order them {% endcomment %}
 {% for post in site.posts %}
 
-  {% comment %}Get all the data hashtags, add a space between each one and assign a
-  variable that will remove the last trailing space
-  {% endcomment %}
+
+{% comment %} When there are enough posts, organize by year. Header organization provided by this solution https://stackoverflow.com/a/20777475 {% endcomment %}
+
+{% comment %}
+{% assign currentdate = post.date | date: "%Y" %}
+  {% if currentdate != date %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+    <ul>
+    {% assign date = currentdate %}
+  {% endif %}
+{% endcomment %}
+
+  {% comment %} Get all the data hashtags, add a space between each one and assign avariable that will remove the last trailing space {% endcomment %}
   {% capture hashtags %}{% for hashtag in post.hashtags %}{{ hashtag }} {% endfor %}{% endcapture %}
   {% assign minusSpace = hashtags | size | minus: 1 %}
 
-  {% comment %}Add the hashtags to the list item if they exist{% endcomment %}
+  {% comment %} Add the hashtags to the list item if they exist {% endcomment %}
 
     <li class="note-item" {% if item.hashtags %}data-hashtags="{{ hashtags | slice: 0,minusSpace }}"{% endif %}><a href="{{ post.url }}">{{ post.title }}</a>
 
-    {% comment %} if there are hashtags, for every one get it and add it in the div {% endcomment %}
+    {% comment %} if there are hashtags, for every one, get it and add it in the div {% endcomment %}
 
     {% capture tags %}{{ include.displayTags }}{% endcapture %}
     {% if post.hashtags and tags == "true" %}
     <div class="hashtag-container">
       {% for hashtag in post.hashtags%}
-      {% capture posttag %}{{ hashtag }}{% endcapture %}
-      {% include hashtag.html tag=posttag %}
+        {% capture posttag %}{{ hashtag }}{% endcapture %}
+        {% include hashtag.html tag=posttag %}
       {% endfor %}
       </div>
     {% endif %}
     </li>
-{% endfor %}
+
+
+  {% comment %}
+  {% if forloop.last %}</ul>{% endif %}
+  {% endcomment %}
+  {% endfor %}
 </ul>

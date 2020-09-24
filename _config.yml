@@ -14,7 +14,7 @@ defaults:
       type: "posts"
     values:
       layout: "note"
-      permalink: :year/:title/
+      permalink: notes/:slug/
 
 collections:
   projects:
