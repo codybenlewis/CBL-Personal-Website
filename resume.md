@@ -5,11 +5,11 @@ permalink: /resume/index.html
 ---
 
 
-#### [Download My Resume](assets/files/Cody-Ben-Lewis-Spring-2020-Resume.pdf){:target="_blank"}
+#### [Download My Resume](assets/files/Cody-Ben-Lewis-Fall-2020-Resume.pdf){:target="_blank"}
 
 
 ## Stuff I Know
-Adobe Creative Suite (including After Effects) • HTML • CSS • Javascript • JQuery • JSON • Processing • Python • Flask • Jekyll • Liquid • Arudino • Raspberry Pi • Web APIs • Kickstarter • Microsoft Office Suite • Google Docs • Sarcasm
+Adobe Creative Suite (including After Effects) • Sketch • Figma • HTML • CSS • Javascript • JQuery • JSON • Processing • Python • Flask • Jekyll • Liquid • Arudino • Raspberry Pi • Kickstarter • Microsoft Office Suite • Google Docs • Sarcasm
 
 ## Jobs
 
@@ -35,8 +35,8 @@ Adobe Creative Suite (including After Effects) • HTML • CSS • Javascript �
 
 ### **Boston University Interactive Design Department** | Boston, MA
 #### Web Design Intern - Summer 2015
-*	Migrated content for university websites
 *	Designed digital and social assets
+*	Migrated content for university websites
 
 ### **thelab, A Creative Production Agency** | New York, NY
 #### Creative Intern - Summer 2014
