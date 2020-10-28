@@ -39,11 +39,10 @@ today:
   url: /projects/today
   hashtags: [ art, design, physical, product, client, kickstarter, 2016 ]
 
-
 input:
   name: Input
   color: "#000000"
-  description: I made a collaborative exquisite corpse inspired drawing program
+  description: I made a collborative sock drawing program.
   thumb: /assets/images/projects/thumbs/input.png
   url: /projects/input
   hashtags: [ design, technology, digital, interactive, independent, processing, unfinished, 2019 ]
