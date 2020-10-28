@@ -10,8 +10,9 @@ Let’s see. So I grew up in Randolph, NJ, where the town motto is “where life
 I went off to college at Boston University, studying graphic design and [graduating with honors](https://youtu.be/M1B3gATS0GE?t=877){:target="_blank"} in 2016. I’ve been living in Boston since, most recently working as a Creative Technologist at MullenLowe.
 
 ## Spammers Do Your Worst
-E-mail: [cblewisnj@gmail.com]("mailto:cblewisnj@gmail.com?subject=I clicked the %22E-Mail%22 link on your about page")<br>
-Phone: [E-mail me for it]("mailto:cblewisnj@gmail.com?subject=Can I have your number?)
+E-mail: <a href="mailto:cblewisnj@gmail.com?subject=I%20clicked%20the %22E-Mail%22 link on your about page">cblewisnj@gmail.com</a>
+<br>
+Phone: <a href="mailto:cblewisnj@gmail.com?subject=Can I have your number?">E-mail me for it</a>
 
 
 

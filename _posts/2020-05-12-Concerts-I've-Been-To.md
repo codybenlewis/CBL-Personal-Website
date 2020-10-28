@@ -9,7 +9,7 @@ Now it's my thing.
 
 Below is the list of all the shows I've went to since graudating from college, up until COVID-19 ruined everything. Through [string&&loop](https://www.stringandloop.com/custom){:target="_blank"} I've been foruntate enough to work with a few of these artists to make custom socks, which has been a newly-realized dream come true.
 
-Special shoutout go to
+Special shoutouts to
 [Prince Daddy & The Hyena](https://open.spotify.com/artist/3EYgeLZ0vtVHKkUL26Eu49?si=QtDAVwJSQrCljpSxocK_Kg){:target="_blank"},
 [Oso Oso](https://open.spotify.com/artist/63GTn25wbdRNX3ijCHvYxD?si=GTJuDLg9S_a4-Ty-ZmVpwA){:target="_blank"},
 [Sinceer Engineer](https://open.spotify.com/artist/5l1QyUoZFlqTKJ1NrbCTu1?si=sxUHMKsyQky-gN_iCci00A){:target="_blank"},
@@ -24,7 +24,7 @@ Special shoutout go to
 [Retirement Party](https://open.spotify.com/artist/6scS2RlUYZHwgNWfMfviOL?si=9p3p7ZBoT36HFJQge-2Pcg){:target="_blank"},
 and so many others whose shows I was supposed to see in 2020, but were cancelled or indefinitely postponed.
 
-When it’s safe again, I'll once again be that awkward tall guy just outside of the mosh pit, blocking everyone else's view because I got there early.
+When it’s safe again, I'll once again be that awkward tall guy standing just barely outside of the mosh pit.
 
 <span id="thelist"></span>
 ## The List
