@@ -5,11 +5,13 @@ table {
   display: block;
   width: 100%;
   max-width: $max-width;
+  overflow-x: auto;
   @include center;
   line-height: .9rem;
   font-size: $font-size-small * .9;
   @include sans-serif;
 }
+
 table tr {
   border-top: 1px solid #cccccc;
   background-color: white;

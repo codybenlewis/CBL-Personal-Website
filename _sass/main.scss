@@ -53,11 +53,6 @@ blockquote {
 }
 
 
-sup {
-
-}
-
-
 h1, h2, h3, h4, h5, h6, p, ol, ul, blockquote, hr, time, header, footer, p {
   @include center;
   max-width: $max-width;
@@ -151,9 +146,13 @@ ul, ol {
   margin-bottom: 1.25rem;
 }
 
-.project-title {
+.project-title, .project-link {
   @include sans-serif;
   font-weight: 600;
+}
+
+.project-link {
+  text-decoration: none;
 }
 
 .project-item-title{
@@ -245,4 +244,9 @@ max-width: 25rem;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+
+#project-body a:hover {
+  color: $light-gray-solid !important;
 }

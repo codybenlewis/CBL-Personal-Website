@@ -7,7 +7,7 @@ americaduck:
   hashtags: [ art, design, physical, product, independent, kickstarter, 2015 ]
 
 shadesofhate:
-  name: Shades of Hate
+  name: Shades Of Hate
   color: "#ffc33e"
   description: I made a portrait of a man with small hands, out of small hands.
   thumb: /assets/images/projects/thumbs/shades-of-hate.png
@@ -23,7 +23,7 @@ personaldataserver:
   hashtags: [ technology, digital, independent, music, data, 2018 ]
 
 stringandloop:
-  name: "string&&loop <span class='fas fa-external-link-square-alt'></span>"
+  name: "string&&loop <i class='fas fa-external-link-square-alt'></i>"
   color: "#0171cf"
   external: true
   description: I made a "soft wear" company.
@@ -38,6 +38,15 @@ today:
   thumb: /assets/images/projects/thumbs/today.png
   url: /projects/today
   hashtags: [ art, design, physical, product, client, kickstarter, 2016 ]
+
+
+input:
+  name: Input
+  color: "#000000"
+  description: I made a collaborative exquisite corpse inspired drawing program
+  thumb: /assets/images/projects/thumbs/input.png
+  url: /projects/input
+  hashtags: [ design, technology, digital, interactive, independent, processing, unfinished, 2019 ]
 
 sceneweek:
   name: Scene Week

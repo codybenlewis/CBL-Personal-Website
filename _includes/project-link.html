@@ -1,0 +1,3 @@
+
+{%- assign item = site.data.projects[include.project] -%}
+{%- if item -%}<a class="project-link" href="{{ item.url }}" style="color: {{item.color}};"> {{ item.name }}</a>{%- endif -%}

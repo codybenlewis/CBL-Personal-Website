@@ -25,13 +25,21 @@
         <!-- Fontawesome-->
         <script src="https://kit.fontawesome.com/7f83434bc9.js" crossorigin="anonymous"></script>
 
+        {% if page.custom_js %}
+          {% for js_file in page.custom_js %}
+            <script src="{{ site.baseurl }}/assets/js/{{ js_file }}"></script>
+          {% endfor %}
+        {% endif %}
 
+        {% if page.custom_css %}
+          {% for css_file in page.custom_css %}
+            <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ css_file }}">
+          {% endfor %}
+        {% endif %}
 
         <!-- Scripts -->
         <script src="/assets/js/clock.js"></script>
         <script src="/assets/js/jquery.simplemarquee.js"></script>
-        <script src="/assets/js/more.js"></script>
-        <script src="/assets/js/okzoom.min.js"></script>
         <script src="/assets/js/spoiler.js"></script>
         <script src="/assets/js/spotify.js"></script>
 

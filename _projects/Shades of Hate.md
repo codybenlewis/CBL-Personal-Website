@@ -1,5 +1,6 @@
 ---
 key: shadesofhate
+custom_js: okzoom.min.js
 ---
 
 Shades of Hate is a mosaic poster of President Donald Trump using the entire spectrum of thumbs down and middle finger skin tone emoji. The project was put on [Kickstarter](https://www.kickstarter.com/projects/860869947/shades-of-hate-trumped-up-posters){:target="_blank"} in October of 2016 in order to produce silkscreen prints of the design, but was ultimately unsuccessful in reaching its funding goal. The only large scale printed version now lives in my bedroom.

@@ -18,7 +18,11 @@ layout: default
 
 
 <!-- Wrap the body in a tag and apply link color changes just to just the content -->
-<style>#project-body a {color: {{ project.color }};}</style>
+<style>
+#project-body a {
+  color: {{ project.color }};
+}
+</style>
 <span id="project-body">
 
 {{ content }}
