@@ -45,7 +45,7 @@ input:
   description: I made a collborative sock drawing program.
   thumb: /assets/images/projects/thumbs/input.png
   url: /projects/input
-  hashtags: [ design, technology, digital, interactive, independent, processing, unfinished, 2019 ]
+  hashtags: [ art, design, technology, digital, interactive, independent, processing, unfinished, 2019 ]
 
 sceneweek:
   name: Scene Week
@@ -86,6 +86,14 @@ seacretsanta:
       thumb: /assets/images/projects/thumbs/seacret-santa.png
       url: /projects/seacret-santa
       hashtags: [ design, technology, physical, digital, activation, client, agency, 2017 ]
+
+apathymachine:
+      name: The Apathy Machine
+      color: "#eb4b5a"
+      description: We made a robot with an Instagram addiction.
+      thumb: /assets/images/projects/thumbs/apathy-machine.png
+      url: /projects/apathy-machine
+      hashtags: [ art, technology, physical, digital, collaboration, agency, unfinished, 2017 ]
 
 giantmanchild:
       name: Giant Man-Child

@@ -15,7 +15,4 @@ E-mail: <a href="mailto:cblewisnj@gmail.com?subject=I%20clicked%20the %22E-Mail%
 Phone: <a href="mailto:cblewisnj@gmail.com?subject=Can I have your number?">E-mail me for it</a>
 
 
-
-<!-- I love my Nespresso machine, talk radio, and  -->
-
-<img src="/assets/images/profile.jpg" style="border-radius:100%; width:10rem; margin-top: .25rem">
+<img src="/assets/images/profile.jpg" style="border-radius:100%; width:10rem; margin-top: 2rem">
