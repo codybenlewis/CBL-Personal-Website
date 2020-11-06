@@ -1,0 +1,303 @@
+---
+title: Cover Letter
+permalink: /cover-letter/index.html
+custom_css: specials/cover-letter.css
+---
+
+<h1>Cover Letter Generator</h1>
+
+<!-- <p>
+  I believe my work speaks for itself, but since cover letters are part of the Interview process, what better way to
+</p> -->
+
+<script>
+var companyDefault = "Company Name";
+var roleDefault = "Role Title";
+var typeDefault = "Type Of Role";
+var missionDefault = "Company Mission";
+var skillsDefault = "Responsibilities";
+
+  function updateCL() {
+
+    function replaceValue(blankid, blankClass, blankDefault) {
+      var input = document.getElementById(blankid).value;
+      index = document.getElementsByClassName(blankClass);
+
+      for (i = 0; i < index.length; i++) {
+        if (input.length < 1) {
+          index[i].innerHTML = blankDefault;
+          index[i].classList.add("madlib");
+        } else {
+          index[i].innerHTML = input;
+          index[i].classList.remove("madlib");
+        }
+      }
+    }
+
+
+    replaceValue("companyInput", "company", companyDefault);
+    replaceValue("roleInput", "role", roleDefault);
+    replaceValue("missionInput", "mission", missionDefault);
+  }
+
+
+  function show(id) {
+    document.getElementById(id).classList.remove("hide");
+  }
+
+  function hide(id) {
+    document.getElementById(id).classList.add("hide");
+  }
+
+  function checkboxClick() {
+    var blank = document.getElementById("skills");
+    var skills = document.getElementsByName("skills");
+    var length = skills.length;
+    var skillTotal = 0;
+    var skillArray = [];
+    var skillList = "";
+
+    for (var i = 0; i < length; i++) {
+      if (skills[i].checked == true) {
+        skillTotal += 1;
+        skillArray.push(skills[i].value);
+      }
+    }
+
+    for (var i = 0; i < skillTotal; i++) {
+      if (i < 1){
+      skillList += skillArray[i];
+      }
+
+      else if (i < 2 && skillTotal == 2) {
+        skillList += " and " + skillArray[i];
+      }
+
+      else {
+        skillList += ", " + skillArray[i];
+      }
+
+      if (skillTotal > 2 && i == skillTotal - 1) {
+      skillList += ", and everything else in between"
+      }
+    }
+
+    if (skillTotal < 1) {
+      blank.innerHTML = skillsDefault;
+      blank.classList.add("madlib");
+    } else {
+      blank.innerHTML = skillList;
+      blank.classList.remove("madlib");
+    }
+  }
+
+
+  function radioClick(target, toggle1, toggle2) {
+
+    var radios = document.getElementsByName(target);
+    var length = radios.length;
+
+    for (var i = 0; i < length; i++) {
+      if (radios[i].checked) {
+        if (radios[i].value == "true") {
+          show(toggle1);
+          if (toggle2) {
+            show(toggle2)
+          }
+        } else {
+          hide(toggle1);
+          if (toggle2) {
+            hide(toggle2)
+          }
+        }
+        // only one radio can be logically checked, don't check the rest
+        break;
+      }
+    }
+  }
+</script>
+
+
+
+<div id="cl-InputContainer" class="centerContent sans-serif">
+  <div class="cl-Input">
+    <span class="cl-InputTitle">
+      Company Name<span class="required">*</span>
+    </span>
+    <input type="text" id="companyInput" placeholder="Acme Corportation">
+  </div>
+
+  <div class="cl-Input">
+    <span class="cl-InputTitle">
+      Role Title<span class="required">*</span>
+    </span>
+    <input type="text" id="roleInput" placeholder="Roadrunner Catcher">
+  </div>
+
+
+
+  <div class="cl-Input">
+    <span class="cl-InputTitle">
+      Inlcude Personal School
+    </span>
+    <form onclick="radioClick('background', 'background')">
+      <input type="radio" id="background-yes" name="background" value="true">
+      <label for="background-yes">Yes</label>
+      <input type="radio" id="background-no" name="background" value="false" checked>
+      <label for="background-no">No</label>
+    </form>
+  </div>
+
+
+
+  <div class="cl-Input">
+    <span class="cl-InputTitle">
+      Role Responsibilities<span class="required">*</span>
+    </span>
+
+    <form onclick="checkboxClick()">
+      {% assign fruits = "Print Design, Packaging Design, Branding, Web Design,  Web Development, Concept Development, Product Development, Cross-channel Production, Social Media, E-Mail Marketing,  Promotions,  Order Fulfillment,  Customer Service,  Client Relationships,  Random Crap" | split: ',' %}
+
+      {% for item in fruits %}
+      <span class="checkbox"><input type="checkbox" id="skill-{{forloop.index}}" name=skills value="{{item  | downcase }}">
+        <label for="skill-{{forloop.index}}">{{item}}</label>
+      </span>
+      {% endfor %}
+    </form>
+  </div>
+
+
+  <div class="cl-Input">
+    <span class="cl-InputTitle">
+      Add A Personal Connection
+    </span>
+    <form onclick="radioClick('connection', 'personalConnection', 'cl-mission')">
+      <input type="radio" id="connection-yes" name="connection" value="true">
+      <label for="connection-yes">Yes</label>
+      <input type="radio" id="connection-no" name="connection" value="false" checked>
+      <label for="connection-no">No</label>
+    </form>
+  </div>
+
+
+
+  <div class="cl-Input hide" id="cl-mission">
+    <span class="cl-InputTitle">
+      Company Mission (Present Tense)<span class="required">*</span>
+    </span>
+    <textarea type="text" id="missionInput" placeholder="Creates outlandish products that fail or backfire catastrophically at the worst possible times"></textarea>
+  </div>
+
+
+
+  <div>
+    <button id="copyButton" onclick="copyCL()">Copy Cover Letter</button>
+  </div>
+</div>
+
+
+
+
+
+<p id="CL">
+  Hi <span class="company madlib"></span>,
+
+
+  <br><br>
+
+
+  My name is Cody. I'm a Boston-based artist, designer, and creative technologist, applying for the open <span class="role madlib"></span> position at <span class="company madlib"></span>.
+
+
+  <br><br>
+
+
+  <span id="background" class="hide">
+    I come from a traditional art background, infusing a lifelong interest in technology towards building a diverse physical/digital skillset.
+  </span>
+
+
+  I thrive in multidisciplinary design roles, proven through <a href="/projects/americaduck" target="_blank">independent projects</a> and backed by years of agency experience for brands like <a href="/projects/boston-marathon" target="_blank">JetBlue</a> and <a href="/projects/freedom-crown" target="_blank">Burger King</a>.
+
+
+  <br>
+
+
+  <span id="experience" class="hide">
+    <br>
+    At MullenLowe I worked on all parts of developing creative campaigns, concept, art, and copy. There I wrapped presents with excellence for Royal Caribbean’s Reddit Secret Santa, designed a burger holding hat for Burger King’s on 4th of July, and
+    created a truck that prints customized posters for those on the sidelines of JetBlue's Boston Marathon activation.
+    <br>
+  </span>
+
+
+  <br>
+
+
+  In my spare time, I run a conceptual sock brand where I’m constantly pushing to develop innovative design and pattern systems. There, I take ownership of <span id="skills" class="madlib"></span>.
+
+
+  <br>
+
+
+  <span id="personalConnection" class="hide">
+    <br>
+    I love the way <span class="company madlib"></span> <span class="mission madlib"></span> and would be honored to be able to contribute as part of the team.
+    <br>
+  </span>
+
+
+  <br>
+
+
+  You’ll find <a href="/resume" target="_blank">my resume</a> uploaded and websites linked, which should give you a better idea of what I can bring to <span class="company madlib"></span> as a <span class="role madlib"></span>, as well as who I am as a person.
+
+
+  <br><br>
+
+
+  <b>Personal Portfolio</b> - <a href="/" target="_blank">codybenlewis.com</a><br>
+  <b>Sock Brand</b> - <a href="https://www.stringandloop.com" target="_blank">stringandloop.com</a>
+
+
+  <br><br>
+
+
+  I look forward to getting a chance to show my work, share some stories, and discuss potential fit for this role.
+
+
+  <br><br>
+
+
+  Thank you for your consideration, <br>
+  Cody Ben Lewis
+</p>
+
+
+
+
+
+<script>
+  var cLInput = document.getElementById('cl-InputContainer');
+  cLInput.addEventListener('keyup', updateCL);
+  document.addEventListener('DOMContentLoaded', updateCL);
+  document.addEventListener('DOMContentLoaded', checkboxClick);
+
+  function copyCL() {
+    // alert("Copied the cover letter to your clip board! Looking forward to hearing from you!")
+    var text = document.getElementById('CL').innerText;
+    var elem = document.createElement("textarea");
+    document.body.appendChild(elem);
+    elem.value = text;
+    elem.select();
+    document.execCommand("copy");
+    document.body.removeChild(elem);
+
+    var button = document.getElementById('copyButton');
+    // button.innerHTML = "Coppied to Clipboard!";
+    button.classList.add('copied');
+    setTimeout(function() {
+      button.classList.remove('copied');
+    }, 1500)
+  }
+</script>

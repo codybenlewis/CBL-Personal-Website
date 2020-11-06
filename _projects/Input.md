@@ -6,7 +6,7 @@ custom_js:
   - input/buttons.js
   - input/tools.js
   - input/encoding.js
-custom_css: input/styles.css
+custom_css: specials/input.css
 ---
 
 Input is a drawing program and concept sock edition for {% include project-link.html project="stringandloop" %}. Inspired by the [Million Dollar Homepage](http://www.milliondollarhomepage.com/){:target="_blank"} and string&&loop's [Quick Draw series](https://www.stringandloop.com/shop/quickdrawcat1){:target="_blank"}, this edition of socks would feature 80 separate user submitted drawings combined into a single pattern. A version of the main drawing enviroment has been ported below.

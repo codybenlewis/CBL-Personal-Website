@@ -6,5 +6,7 @@
   link: /about
 - name: Resume
   link: /resume
+- name: Cover Letter
+  link: /cover-letter
 - name: E-Mail
   link: "mailto:cblewisnj@gmail.com?subject=I clicked the %22E-Mail%22 link on your website"

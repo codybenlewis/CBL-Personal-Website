@@ -5,6 +5,7 @@ permalink: /resume/index.html
 ---
 
 
+# Resume
 #### [Download My Resume](assets/files/Cody-Ben-Lewis-Fall-2020-Resume.pdf){:target="_blank"}
 
 
