@@ -7,7 +7,7 @@ custom_css: specials/cover-letter.css
 <h1>Cover Letter Generator</h1>
 
 <!-- <p>
-  I believe my work speaks for itself, but since cover letters are part of the Interview process, what better way to
+  I believe my work speaks for itself. Since cover letters are an unfornate reality of the Interview process, what better way to introduce myself than through the kind of projects I like to create.
 </p> -->
 
 <script>
@@ -22,6 +22,10 @@ var skillsDefault = "Responsibilities";
     function replaceValue(blankid, blankClass, blankDefault) {
       var input = document.getElementById(blankid).value;
       index = document.getElementsByClassName(blankClass);
+
+      if (blankid == "missionInput") {
+        input = input.charAt(0).toLowerCase() + input.slice(1);
+      }
 
       for (i = 0; i < index.length; i++) {
         if (input.length < 1) {
