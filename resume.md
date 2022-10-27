@@ -5,19 +5,18 @@ permalink: /resume/index.html
 ---
 
 
-# Resume
-#### [Download My Resume](assets/files/Cody-Ben-Lewis-Fall-2020-Resume.pdf){:target="_blank"}
+<!-- # Resume
+#### [Download My Resume](assets/files/Cody-Ben-Lewis-Fall-2020-Resume.pdf){:target="_blank"} -->
 
 
 ## Stuff I Know
-Adobe Creative Suite (including After Effects) • Sketch • Figma • HTML • CSS • Javascript • JQuery • JSON • Processing • Python • Flask • Jekyll • Liquid • Arudino • Raspberry Pi • Kickstarter • Microsoft Office Suite • Google Docs • Sarcasm
+Adobe Creative Suite (including After Effects) • Figma • Sketch • HTML • CSS • Javascript • JQuery • JSON • Wordpress • Processing • Python • Flask • Jekyll • Liquid • Arudino • Raspberry Pi • Kickstarter • Microsoft Office Suite • Google Docs • Sarcasm
 
 ## Jobs
 
-### **MullenLowe** | Boston, MA
-#### Creative Technologist - Spring 2016 to Spring 2020
-* Developed, prototyped, and produced (typically digitally-focused) social and creative advertising
-* Clients Include: Burger King, JetBlue, Royal Caribbean, E*TRADE, SharkNinja
+### **Immuta** | Boston, MA
+#### Graphic Designer - Spring 2021 to Present
+* Designs and develops a little bit of everything
 
 ### **string&&loop/Cody Ben Lewis, LLC** | Somerville, MA
 #### Owner - Spring 2016 to Present
@@ -25,14 +24,19 @@ Adobe Creative Suite (including After Effects) • Sketch • Figma • HTML •
 *	Manages day-to-day operations and order fulfillment
 *	Clients Include: TunnelBear, Major League Hacking, Remnant Brewing, Prince Daddy & The Hyena
 
+### **MullenLowe** | Boston, MA
+#### Creative Technologist - Spring 2016 to Spring 2020
+* Developed, prototyped, and produced (typically digitally-focused) social and creative advertising
+* Clients Include: Burger King, JetBlue, Royal Caribbean, E*TRADE, SharkNinja
+
 ### **Sheehan Family Companies** | Everett, MA
 #### Graphic Designer - Fall 2014 to Spring 2016
 *	Designed digital and print promotional marketing materials
 *	Clients Include: Carlsberg, Kronenburg 1664, Crabbie's Ginger Beer
 
-### **AdLab** | Boston, MA
+<!-- ### **AdLab** | Boston, MA
 #### Art Supervisor - Spring 2016
-*	Managed student-led teams in creating ad campaigns
+*	Managed student-led teams in creating ad campaigns -->
 
 ### **Boston University Interactive Design Department** | Boston, MA
 #### Web Design Intern - Summer 2015
