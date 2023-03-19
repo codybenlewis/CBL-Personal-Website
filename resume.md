@@ -22,8 +22,8 @@ Adobe Creative Suite • Figma • Sketch • HTML • CSS • Javascript • JS
 ### **string&&loop/Cody Ben Lewis, LLC** | Somerville, MA
 #### Owner - Spring 2016 to Present
 * Manages and operates a sock design and production business
-* Designed and produced over 20,000 pairs of socks across 50+ individual designs
-* Clients Include: TunnelBear, University of New Hampshire, WHOOP, Counter Intuitive&nbsp;Records
+* Created over 20,000 pairs of custom socks and more than fifty individual patterns
+* Clients Include: WHOOP, TunnelBear, University of New Hampshire, Counter Intuitive&nbsp;Records
 
 ### **MullenLowe** | Boston, MA
 #### Creative Technologist - Spring 2016 to Spring 2020
