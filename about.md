@@ -5,9 +5,9 @@ permalink: /about/index.html
 
 # About
 
-Let’s see. So I grew up in Randolph, NJ, where the town motto is “where life is worth living.” I won't argue how accurate it is, but you’re free to draw your own conclusions. Growing up I always loved art, business, and technology. It wasn’t until I got older though that I started to put them together.
+Let's see. I grew up in Randolph, NJ with lifelong interests in art, technology, and business. However it wasn’t until I got older that I started to put those three things together.
 
-I went off to college at Boston University, studying graphic design and [graduating with honors](https://youtu.be/M1B3gATS0GE?t=877){:target="_blank"} in 2016. I’ve been living in Boston since, currently at [Immuta](https://www.immuta.com/){:target="_blank"} as a graphic designer.
+I went off to college at Boston University, studying graphic design and [graduating with honors](https://youtu.be/M1B3gATS0GE?t=877){:target="_blank"} in 2016. I’ve been living in the Boston area since, currently working at [Immuta](https://www.immuta.com/){:target="_blank"} as a graphic designer.
 
 ## Spammers Do Your Worst
 E-mail: <a href="mailto:cblewisnj@gmail.com?subject=I%20clicked%20the %22E-Mail%22 link on your about page">cblewisnj@gmail.com</a>
