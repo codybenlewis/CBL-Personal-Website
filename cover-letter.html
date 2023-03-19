@@ -160,7 +160,7 @@ var skillsDefault = "Responsibilities";
     </span>
 
     <form onclick="checkboxClick()">
-      {% assign responsibilities = "Web Design, Web Development, Print Design, Creative Concepting, Client Relations, Product Development, Cross-channel Production, Social Media, E-Mail Marketing, Event Design, Promotions,  Order Fulfillment,  Customer Service,  Client Relationships,  Random Crap" | split: ',' %}
+      {% assign responsibilities = "Web Design, Web Development, Print Design, Creative Concepting, Product Development, Operations, Logistics, Social Media, E-Mail Marketing, Event Design, Sales Promotions, Order Fulfillment, Customer Service, Client Relationships, Random Crap" | split: ',' %}
 
       {% for item in responsibilities %}
       <span class="checkbox"><input type="checkbox" id="skill-{{forloop.index}}" name=skills value="{{item  | downcase }}">
