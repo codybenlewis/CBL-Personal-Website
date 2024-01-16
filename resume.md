@@ -5,21 +5,22 @@ permalink: /resume/index.html
 ---
 
 
-<!-- # Resume
-#### [Download My Resume](assets/files/Cody-Ben-Lewis-Fall-2020-Resume.pdf){:target="_blank"} -->
+# Resume
+#### [Download My Resume](/assets/files/Cody-Ben-Lewis-Winter-2024-Resume.pdf){:target="_blank"}
 
 
 ## Stuff I Know
-Adobe Creative Suite • Figma • Sketch • HTML • CSS • Javascript • JSON • Wordpress • Processing • Python • Flask Jekyll • Liquid • Arudino • Raspberry Pi • Kickstarter • Microsoft Office Suite • Google Workspace • Sarcasm
+Adobe Creative Suite • Figma • Sketch • HTML • CSS • Javascript • JSON • Wordpress • Processing • Python • Flask Jekyll • Liquid • Arudino • Raspberry Pi • Kickstarter • Microsoft Office Suite • Google Workspace • Sense of Humor
 
 ## Jobs
 
 ### **Immuta** | Boston, MA
-#### Graphic Designer - Spring 2021 to Present
-*	Provides art direction and design services for the Immuta brand across all digital and print channels
-*	Designs and develops web pages, email templates, and code optimizations for internal marketing tools
+#### Manager, Creative Services - Spring 2021 to Present
+* Promoted to lead art direction and design for the Immuta brand across all digital and print channels
+*	Designs and develops company web pages, email templates, and code optimizations for internal marketing tools
+* Manages creative team projects and mentors designers
 
-### **string&&loop/Cody Ben Lewis, LLC** | Somerville, MA
+### **string&&loop/Cody Ben Lewis, LLC** | Cambridge, MA
 #### Owner - Spring 2016 to Present
 * Manages and operates a sock design and production business
 * Created over 20,000 pairs of custom socks and more than fifty individual patterns

@@ -7,7 +7,7 @@ permalink: /about/index.html
 
 Let's see. I grew up in Randolph, NJ with lifelong interests in art, technology, and business. However it wasn’t until I got older that I started to put those three things together.
 
-I went off to college at Boston University, studying graphic design and [graduating with honors](https://youtu.be/M1B3gATS0GE?t=877){:target="_blank"} in 2016. I’ve been living in the Boston area since, currently working at [Immuta](https://www.immuta.com/){:target="_blank"} as a graphic designer.
+I went off to college at Boston University, studying graphic design and [graduating with honors](https://youtu.be/M1B3gATS0GE?t=877){:target="_blank"} in 2016. I’ve been living and working in the Boston area since. I'm currently the Manager of Creative Services at {% include project-link.html project="immuta" %} and Owner of {% include project-link.html project="stringandloop" %}.
 
 ## Spammers Do Your Worst
 E-mail: <a href="mailto:cblewisnj@gmail.com?subject=I%20clicked%20the %22E-Mail%22 link on your about page">cblewisnj@gmail.com</a>

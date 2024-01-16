@@ -6,13 +6,13 @@ americaduck:
   url: /projects/america-duck
   hashtags: [ art, design, physical, product, independent, kickstarter, 2015 ]
 
-shadesofhate:
-  name: Shades Of Hate
-  color: "#ffc33e"
-  description: I made a portrait of a man with small hands, out of small hands.
-  thumb: /assets/images/projects/thumbs/shades-of-hate.png
-  url: /projects/shades-of-hate
-  hashtags: [ art, design, technology, physicial, independent, kickstarter, processing, 2016]
+apathymachine:
+      name: The Apathy Machine
+      color: "#eb4b5a"
+      description: We made a robot with an Instagram addiction.
+      thumb: /assets/images/projects/thumbs/apathy-machine.png
+      url: /projects/apathy-machine
+      hashtags: [ art, technology, physical, digital, collaboration, agency, unfinished, 2017 ]
 
 personaldataserver:
   name: Personal Data Server
@@ -22,6 +22,14 @@ personaldataserver:
   url: /projects/personal-data-server
   hashtags: [ technology, digital, independent, music, data, 2018 ]
 
+shadesofhate:
+  name: Shades Of Hate
+  color: "#ffc33e"
+  description: I made a portrait of a man with small hands, out of small hands.
+  thumb: /assets/images/projects/thumbs/shades-of-hate.png
+  url: /projects/shades-of-hate
+  hashtags: [ art, design, technology, physicial, independent, kickstarter, processing, 2016]
+
 stringandloop:
   name: "string&&loop <i class='fas fa-external-link-square-alt'></i>"
   color: "#0171cf"
@@ -29,7 +37,7 @@ stringandloop:
   description: I made a "soft wear" company.
   thumb: /assets/images/projects/thumbs/stringandloop.png
   url: "https://www.stringandloop.com/"
-  hashtags: [ art, design, technology, physical, digital, product, independent, kickstarter, processing, 2016 ]
+  hashtags: [ art, design, brand, technology, physical, digital, product, independent, kickstarter, processing, 2016 ]
 
 today:
   name: Today
@@ -38,6 +46,15 @@ today:
   thumb: /assets/images/projects/thumbs/today.png
   url: /projects/today
   hashtags: [ art, design, physical, product, client, kickstarter, 2016 ]
+
+immuta:
+  name: "Immuta <i class='fas fa-external-link-square-alt'></i>"
+  color: "#000000"
+  external: true
+  description: I lead art direction and brand design for this company.
+  thumb: /assets/images/projects/thumbs/immuta.png
+  url: "https://www.immuta.com/"
+  hashtags: [ design, brand, technology, physical, digital, client, data, 2021 ]
 
 input:
   name: Input
@@ -87,13 +104,6 @@ seacretsanta:
       url: /projects/seacret-santa
       hashtags: [ design, technology, physical, digital, activation, client, agency, 2017 ]
 
-apathymachine:
-      name: The Apathy Machine
-      color: "#eb4b5a"
-      description: We made a robot with an Instagram addiction.
-      thumb: /assets/images/projects/thumbs/apathy-machine.png
-      url: /projects/apathy-machine
-      hashtags: [ art, technology, physical, digital, collaboration, agency, unfinished, 2017 ]
 
 giantmanchild:
       name: Giant Man-Child
