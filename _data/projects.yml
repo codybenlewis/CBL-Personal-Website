@@ -31,7 +31,7 @@ shadesofhate:
   hashtags: [ art, design, technology, physicial, independent, kickstarter, processing, 2016]
 
 stringandloop:
-  name: "string&&loop <i class='fas fa-external-link-square-alt'></i>"
+  name: "string&&loop <i class='fa fa-external-link'></i>"
   color: "#0171cf"
   external: true
   description: I made a "soft wear" company.
@@ -48,10 +48,10 @@ today:
   hashtags: [ art, design, physical, product, client, kickstarter, 2016 ]
 
 immuta:
-  name: "Immuta <i class='fas fa-external-link-square-alt'></i>"
+  name: "Immuta <i class='fa fa-external-link'></i>"
   color: "#000000"
   external: true
-  description: I lead art direction and brand design for this company.
+  description: I lead the creative team and manage brand design for this company.
   thumb: /assets/images/projects/thumbs/immuta.png
   url: "https://www.immuta.com/"
   hashtags: [ design, brand, technology, physical, digital, client, data, 2021 ]

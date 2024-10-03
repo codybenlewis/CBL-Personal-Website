@@ -6,16 +6,16 @@ permalink: /resume/index.html
 
 
 # Resume
-#### [Download My Resume](/assets/files/Cody-Ben-Lewis-Winter-2024-Resume.pdf){:target="_blank"}
+#### [Download My Resume](/assets/files/Cody-Ben-Lewis-Fall-2024-Resume.pdf){:target="_blank"}
 
 
 ## Stuff I Know
-Adobe Creative Suite • Figma • Sketch • HTML • CSS • Javascript • JSON • Wordpress • Processing • Python • Flask Jekyll • Liquid • Arudino • Raspberry Pi • Kickstarter • Microsoft Office Suite • Google Workspace • Sense of Humor
+Adobe Creative Suite • Figma • Sketch • HTML • CSS • Javascript • JSON • Wordpress • Processing • Python • Flask Jekyll • Liquid • Arudino • Raspberry Pi • Kickstarter • Microsoft Office Suite • Google Workspace • Slack • Sarcasm
 
 ## Jobs
 
 ### **Immuta** | Boston, MA
-#### Manager, Creative Services - Spring 2021 to Present
+#### Sr. Manager, Creative Services - Spring 2021 to Present
 * Promoted to lead art direction and design for the Immuta brand across all digital and print channels
 *	Designs and develops company web pages, email templates, and code optimizations for internal marketing tools
 * Manages creative team projects and mentors designers
